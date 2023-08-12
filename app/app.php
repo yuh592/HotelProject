@@ -69,7 +69,7 @@ class App{
                     unset($urlArr[$key-1]);
                 }
 
-                if (file_exists('app/controllers/'.($fileCheck).'.php')){
+                if (file_exists('app/controllers/user/'.($fileCheck).'.php')){
                     $urlCheck = $fileCheck;
                     break;
                 } else{
@@ -94,8 +94,8 @@ class App{
             $urlCheck = $this->__controller;
         }
 
-        if (file_exists('app/controllers/'.$urlCheck.'.php')){
-            require_once 'controllers/'.$urlCheck.'.php';
+        if (file_exists('app/controllers/user/'.$urlCheck.'.php')){
+            require_once 'controllers/user/'.$urlCheck.'.php';
 
             //Kiểm tra class $this->__controller tồn tại
             if (class_exists($this->__controller)){

@@ -7937,7 +7937,10 @@ select.mphb_sc_checkout-service-adults
 .mphb_sc_search-form input.mphb-datepick,
 .mphb-booking-form input.mphb-datepick
 {
-  width: 100%;
+  width: 200px;
+  height: 20px;
+  border-radius: 10px;
+  border: 14px solid #fff;
 }
 
 #page_content_wrapper p.mphb-check-in-date
@@ -8346,7 +8349,7 @@ select {
 #page_content_wrapper .inner .inner_wrapper,
 body.centeralign3 .menu_address_content,
 body.centeralign3 .menu_tel_content {
-    letter-spacing: 0px;
+    /* letter-spacing: 0px; */
 }
 body {
     line-height: 1.8;

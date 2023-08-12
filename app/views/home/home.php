@@ -22,45 +22,45 @@
                                                                             <div class="slide-content">
                                                                                 <div class="caption">
                                                                                     <div class="title">
-                                                                                        <h2>Khách sạn Boutique mới của bạn ở Praha. Lập kế hoạch hành trình của những giấc mơ của bạn</h2>
+                                                                                        <h2>Ngắm bình minh từ khu nghỉ dưỡng 5 sao bên bờ biển</h2>
                                                                                     </div>
-                                                                                    <div class="text">
+                                                                                    <!-- <div class="text">
                                                                                         Cửa hàng
-                                                                                    </div>
+                                                                                    </div> -->
                                                                                 </div>
                                                                             </div>
                                                                             <div class="image-container">
-                                                                                <img src="../../../public/upload/dry-vodka-martini-gin-tonic-cocktail-served-in-PF5WQAH.jpg" alt="" class="image" />
+                                                                                <img src="../../../public/upload/mc-dadmr-exterior34710-87592.jpg" alt="" class="image" />
                                                                             </div>
                                                                         </div>
                                                                         <div class="slide">
                                                                             <div class="slide-content">
                                                                                 <div class="caption">
                                                                                     <div class="title">
-                                                                                        <h2>Điểm chuẩn cho khách sạn boutique, khách sạn nhỏ sang trọng</h2>
+                                                                                        <h2>Hành trình trải nghiệm<br> ẩm thực Á-Âu</h2>
                                                                                     </div>
-                                                                                    <div class="text">
+                                                                                    <!-- <div class="text">
                                                                                         Loại phòng
-                                                                                    </div>
+                                                                                    </div> -->
                                                                                 </div>
                                                                             </div>
                                                                             <div class="image-container">
-                                                                                <img src="../../../public/upload/dry-vodka-martini-gin-tonic-cocktail-served-in-PF5WQAH.jpg" alt="" class="image" />
+                                                                                <img src="../../../public/upload/mc-dadmr-goji-restaurant-02790_Wide-Hor.jfif" alt="" class="image" />
                                                                             </div>
                                                                         </div>
                                                                         <div class="slide">
                                                                             <div class="slide-content">
                                                                                 <div class="caption">
                                                                                     <div class="title">
-                                                                                        <h2>Thưởng thức bánh làm tại nhà từ đầu bếp bánh ngọt của chúng tôi,</h2>
+                                                                                        <h2>Summer Reheat, tận hưởng mùa hè trên bãi biển trong xanh</h2>
                                                                                     </div>
-                                                                                    <div class="text">
+                                                                                    <!-- <div class="text">
                                                                                         Nhà hàng & Quán bar
-                                                                                    </div>
+                                                                                    </div> -->
                                                                                 </div>
                                                                             </div>
                                                                             <div class="image-container">
-                                                                                <img src="../../../public/upload/600600p3168EDNmainimg-9b7328e94107bf59e616.jpg" alt="" class="image" />
+                                                                                <img src="../../../public/upload/Danang-Marriott-Resort-Spa-3.jpg" alt="" class="image" />
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -84,7 +84,7 @@
                                                         <div class="elementor-widget-container">
                                                             <div class="availability_search_wrapper">
                                                                 <div class="mphb_sc_search-wrapper">
-                                                                    <form method="POST" class="mphb_sc_search-form" action="./index.php?act=home">
+                                                                    <form method="POST" class="mphb_sc_search-form" action="../../../app/controllers/user/index.php?act=home">
 
                                                                         <p class="mphb-required-fields-tip">
                                                                             <small> Required fields are followed by <abbr title="required">*</abbr> </small>
@@ -148,14 +148,14 @@
                                 </div>
                             </section>
 
-                            <section class="grid grid-cols-4 my-4 gap-4 ">
+                            <section class="grid grid-cols-4 my-4 gap-4 " style="margin-top: 150px;">
                                 <?php if (isset($listpdadat)) { ?>
                                     <?php foreach ($listpdadat as $item) { ?>
                                         <div class="shadow-lg p-2">
                                             <div class="absolute w-96 h-96" style="width: 29.5rem; height: 45rem;  background-color: rgb(241, 229, 229, 0.4); ; z-index: 5"></div>
                                             <div class="bg-red-700 w-50 rounded-br-xl h-12 absolute  text-white font-bold text-2xl p-2" style="z-index: 1;">Đã hết</div>
                                             <div class="overflow-hidden ">
-                                                <img class=" hover:scale-105 duration-700" style="height: 45rem" src="../../public/upload/<?php echo $item['img'] ?>" alt="">
+                                                <img class=" hover:scale-105 duration-700" style="height: 45rem" src="../../../public/upload/<?php echo $item['img'] ?>" alt="">
                                             </div>
                                             <div>
                                                 <h2 class="font-serif text-3xl font-bold pt-3"><?php echo $item['name_phong'] ?></h2>
@@ -186,7 +186,7 @@
                                             <div class="bg-green-600 w-50 rounded-br-xl h-12 absolute  text-white font-bold text-2xl p-2" style="z-index: 1;">Còn Trống</div>
                                             <div class="overflow-hidden">
                                                 <a class="" href="index.php?act=room&id=<?php echo $item['id_phong'] ?>">
-                                                    <img class="hover:scale-110 duration-700" style="height: 45rem" src="../../public/upload/<?php echo $item['img'] ?>" alt="">
+                                                    <img class="hover:scale-110 duration-700" style="height: 45rem" src="../../../public/upload/<?php echo $item['img'] ?>" alt="">
                                                 </a>
                                             </div>
                                             <div>

@@ -1,5 +1,5 @@
 <?php
-// $routes['default_controller'] = 'home';
+$routes['default_controller'] = 'app/controllers/user/index.php';
 // /*
 //  * Đường dẫn ảo => Đường dẫn thật
 //  *

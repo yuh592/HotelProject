@@ -98,7 +98,7 @@
                                                     <div class="elementor-element elementor-element-12805c82 elementor-widget elementor-widget-image" data-id="12805c82" data-element_type="widget" data-settings='{"hoteller_image_is_animation":"false","hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="image.default">
                                                         <div class="elementor-widget-container">
                                                             <div class="elementor-image">
-                                                                <img width="545" height="800" src="upload/<?php echo $room['img'] ?>" class="attachment-full size-full" alt="" loading="lazy" />
+                                                                <img width="545" height="800" src="../../../public/upload/<?php echo $room['img'] ?>" class="attachment-full size-full" alt="" loading="lazy" />
                                                             </div>
                                                         </div>
                                                     </div>
@@ -162,7 +162,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="image-container">
-                                                                                <img src="upload/at-six-hotel-universal-design-studio-interiors-stockholm-sweden_dezeen_2364_col_2.jpg" alt="" class="image" />
+                                                                                <img src="../../../public/upload/at-six-hotel-universal-design-studio-interiors-stockholm-sweden_dezeen_2364_col_2.jpg" alt="" class="image" />
                                                                             </div>
                                                                         </div>
                                                                         <div class="slide">
@@ -175,7 +175,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="image-container">
-                                                                                <img src="upload/101048866.jpg" alt="" class="image" />
+                                                                                <img src="../../../public/upload/101048866.jpg" alt="" class="image" />
                                                                             </div>
                                                                         </div>
                                                                         <div class="slide">
@@ -188,7 +188,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="image-container">
-                                                                                <img src="upload/1551336909_5c7785cd1a9e7-thumb.jpg" alt="" class="image" />
+                                                                                <img src="../../../public/upload/1551336909_5c7785cd1a9e7-thumb.jpg" alt="" class="image" />
                                                                             </div>
                                                                         </div>
                                                                         <div class="slide">
@@ -201,7 +201,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="image-container">
-                                                                                <img src="upload/Hotel_Zachary_022_preview.0.jpg" alt="" class="image" />
+                                                                                <img src="../../../public/upload/Hotel_Zachary_022_preview.0.jpg" alt="" class="image" />
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -264,7 +264,7 @@
                                                     <div class="elementor-element elementor-element-7bed6a75 elementor-invisible elementor-widget elementor-widget-image" data-id="7bed6a75" data-element_type="widget" data-settings='{"_animation":"fadeInUp","_animation_delay":400,"hoteller_image_is_animation":"false","hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="image.default">
                                                         <div class="elementor-widget-container">
                                                             <div class="elementor-image">
-                                                                <img width="1023" height="576" src="upload/ct-trav-hotel-zachary-open-date-0220.jpg" class="attachment-full size-full" alt="" loading="lazy" />
+                                                                <img width="1023" height="576" src="../../../public/upload/ct-trav-hotel-zachary-open-date-0220.jpg" class="attachment-full size-full" alt="" loading="lazy" />
                                                             </div>
                                                         </div>
                                                     </div>
@@ -277,7 +277,7 @@
                                                     <div class="elementor-element elementor-element-4d3696af elementor-invisible elementor-widget elementor-widget-image" data-id="4d3696af" data-element_type="widget" data-settings='{"_animation":"fadeInUp","_animation_delay":200,"hoteller_image_is_animation":"false","hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="image.default">
                                                         <div class="elementor-widget-container">
                                                             <div class="elementor-image">
-                                                                <img width="545" height="800" src="upload/room3_portrait.jpg" class="attachment-full size-full" alt="" loading="lazy" />
+                                                                <img width="545" height="800" src="../../../public/upload/room3_portrait.jpg" class="attachment-full size-full" alt="" loading="lazy" />
                                                             </div>
                                                         </div>
                                                     </div>
@@ -294,7 +294,7 @@
                                 </div>
 
                                 <div class=" my-5 w-full">
-                                    <form action="index.php?act=binhluan&id=<?php echo $room['id_phong']; ?>" class="w-full border-inherit " method="POST">
+                                    <form action="../../../app/controllers/user/index.php?act=binhluan&id=<?php echo $room['id_phong']; ?>" class="w-full border-inherit " method="POST">
                                         <?php
                                         if (isset($_SESSION['user'])) {
                                             extract($_SESSION['user']);
@@ -314,7 +314,7 @@
                                         } else {
                                         ?>
                                             <div>
-                                                <button style="background-color:#06283D;border:1px solid #DFF6FF;"><a style="padding: 10px 20px;color:#DFF6FF;text-decoration:none;" href="taikhoan/dangnhap.php">Đăng Nhập Để Bình Luận</a> </button>
+                                                <button style="background-color:#06283D;border:1px solid #DFF6FF;"><a style="padding: 10px 20px;color:#DFF6FF;text-decoration:none;" href="../../../app/views/dangnhap.php">Đăng Nhập Để Bình Luận</a> </button>
                                             </div>
                                         <?php } ?>
                                     </form>
@@ -329,15 +329,15 @@
                                     ?>
                                     <?php foreach ($listbl as $item) { ?>
                                         <?php
-                                        $suabl = 'index.php?act=suabl&id=' . $item['id_comment'] . '&idp=' . $item['id_phong'] .'';
-$xoabl = 'index.php?act=xoabl&id= ' . $item['id_comment'] . '&idp=' . $item['id_phong'] .'';
+                                        $suabl = '../../../app/controllers/user/index.php?act=suabl&id=' . $item['id_comment'] . '&idp=' . $item['id_phong'] .'';
+                                        $xoabl = '../../../app/controllers/user/index.php?act=xoabl&id= ' . $item['id_comment'] . '&idp=' . $item['id_phong'] .'';
 
                                         ?>
                                         <div class="pl-24 my-4 ">
                                             <div class="">
                                                 <div class="flex">
                                                     <div class="w-16 h-16 border-solid border-2 rounded-full overflow-hidden border-green-600">
-                                                        <img class="w-16" src="./upload/101048866-768x576.jpg" alt="">
+                                                        <img class="w-16" src="../../../public/upload/101048866-768x576.jpg" alt="">
                                                     </div>
                                                     <p class="ml-5 text-2xl font-bold"><?php echo $item['username'] ?></p>
 
@@ -361,14 +361,14 @@ $xoabl = 'index.php?act=xoabl&id= ' . $item['id_comment'] . '&idp=' . $item['id_
                                                 <?php } ?>
                                             </div>
                                             <div class="update" style="display : none;" >
-                                                <form action="./index.php?act=updatebl&idbl=<?php echo $item['id_comment']; ?>" class="w-full border-inherit " method="POST">
+                                                <form action="../../../app/controllers/user/index.php?act=updatebl&idbl=<?php echo $item['id_comment']; ?>" class="w-full border-inherit " method="POST">
                                                                
                                                     <input type="text" name="iduser" value="<?php echo $_SESSION['user']['id_user'] ?>" hidden>
     
                                                     <input type="text" name="idroom" value="<?php echo $room['id_phong']; ?>" hidden>
     
                                                     <div class="p-4">
-<textarea name="comment" cols="30" rows="2" type="text" class="w-full py-5 border-none " placeholder="Sửa bình luận"></textarea>
+                                                        <textarea name="comment" cols="30" rows="2" type="text" class="w-full py-5 border-none " placeholder="Sửa bình luận"></textarea>
                                                     </div>
                                                     <br>
                                                     <div class="bg-slate-200 p-5 flex ">
@@ -630,7 +630,7 @@ $xoabl = 'index.php?act=xoabl&id= ' . $item['id_comment'] . '&idp=' . $item['id_
 
                                                                         <ul class="c-mouse-vertical-carousel__list js-carousel-list">
                                                                             <li class="c-mouse-vertical-carousel__list-item js-carousel-list-item" data-item-id="0">
-                                                                                <a href="https://max-themes.net/demos/hoteller/hoteller/superior-room/index.htm">
+                                                                                <a href="">
                                                                                     <p class="c-mouse-vertical-carousel__eyebrow">
                                                                                         from 1.500.000vnd/đêm
                                                                                     </p>
@@ -640,7 +640,7 @@ $xoabl = 'index.php?act=xoabl&id= ' . $item['id_comment'] . '&idp=' . $item['id_
                                                                                 </a>
                                                                             </li>
                                                                             <li class="c-mouse-vertical-carousel__list-item js-carousel-list-item" data-item-id="1">
-                                                                                <a href="index.html">
+                                                                                <a href="">
                                                                                     <p class="c-mouse-vertical-carousel__eyebrow">
                                                                                         from 1.800.000vnd/đêm
                                                                                     </p>
@@ -650,7 +650,7 @@ $xoabl = 'index.php?act=xoabl&id= ' . $item['id_comment'] . '&idp=' . $item['id_
                                                                                 </a>
                                                                             </li>
                                                                             <li class="c-mouse-vertical-carousel__list-item js-carousel-list-item" data-item-id="2">
-                                                                                <a href="https://max-themes.net/demos/hoteller/hoteller/signature-room/index.htm">
+                                                                                <a href="">
                                                                                     <p class="c-mouse-vertical-carousel__eyebrow">
                                                                                         from 2.000.000vnd/đêm
                                                                                     </p>
@@ -660,7 +660,7 @@ $xoabl = 'index.php?act=xoabl&id= ' . $item['id_comment'] . '&idp=' . $item['id_
                                                                                 </a>
                                                                             </li>
                                                                             <li class="c-mouse-vertical-carousel__list-item js-carousel-list-item" data-item-id="3">
-                                                                                <a href="https://max-themes.net/demos/hoteller/hoteller/luxury-suite-room/index.htm">
+                                                                                <a href="">
                                                                                     <p class="c-mouse-vertical-carousel__eyebrow">
                                                                                         from 3.000.000vnd/đêm
                                                                                     </p>
@@ -670,10 +670,10 @@ $xoabl = 'index.php?act=xoabl&id= ' . $item['id_comment'] . '&idp=' . $item['id_
                                                                                 </a>
                                                                             </li>
                                                                         </ul>
-                                                                        <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url(upload/One-Bedroom-Alpine-Suite-Lake-View.jpg);"></i>
-                                                                        <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url(upload/149368628.jpg);"></i>
-                                                                        <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url(upload/room-standard-01.jpg);"></i>
-                                                                        <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url(upload/St-Moritz-Guest-Room.jpg);"></i>
+                                                                        <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url(../../../public/upload/One-Bedroom-Alpine-Suite-Lake-View.jpg);"></i>
+                                                                        <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url(../../../public/upload/149368628.jpg);"></i>
+                                                                        <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url(../../../public/upload/room-standard-01.jpg);"></i>
+                                                                        <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url(../../../public/upload/St-Moritz-Guest-Room.jpg);"></i>
                                                                         <i class="c-gradient-overlay"></i>
                                                                     </div>
                                                                 </header>
