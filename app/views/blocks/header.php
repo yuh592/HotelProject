@@ -204,7 +204,9 @@
                                                                                 <ol class="header__navbar-user-menu">
                                                                                  
                                                                                     <li class="header__navbar-user-item header__navbar-user-item--separate">
-                                                                                        <a href="../../../app/views/dangnhap.php">ĐĂNG NHẬP</a>
+                                                                                    <a href="../../../app/views/dangki.php">ĐĂNG KÍ</a><br>
+                                                                                    <a href="../../../app/views/dangnhap.php">ĐĂNG NHẬP</a>
+                                                                                        
                                                                                     </li>
                                                                                 </ol>
                                                                             </li>
@@ -217,7 +219,7 @@
                                                     <div class="elementor-element elementor-element-e1c5a63 elementor_mobile_nav elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="e1c5a63" data-element_type="widget" data-settings='{"hoteller_image_is_animation":"false","hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="image.default">
                                                         <div class="elementor-widget-container">
                                                             <div class="elementor-image">
-                                                                <img width="68" height="50" src="upload/menu_icon_white.png" class="attachment-full size-full" alt="" loading="lazy" />
+                                                                <img width="68" height="50" src="../../../public/upload/menu_icon_white.png" class="attachment-full size-full" alt="" loading="lazy" />
                                                             </div>
                                                         </div>
                                                     </div>

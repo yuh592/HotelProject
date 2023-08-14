@@ -1,5 +1,5 @@
 <?php
-    include "../model/pdo.php";
+    include "../app/models/pdo.php";
     $id = $_GET['idorder'];
     $sql="select * from datphong where id_order = $id";
     $hd=pdo_query_one($sql);
