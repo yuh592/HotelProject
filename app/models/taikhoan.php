@@ -1,6 +1,6 @@
 <?php
     function insert_taikhoan($username,$email,$password,$tel,$address){
-        $sql="INSERT INTO taikhoan(username,email,password,tel,address) values('$username','$email','$password','$tel','$address')";
+        $sql="INSERT INTO taikhoan(username,password,email,tel,address) values('$username','$email','$password','$tel','$address')";
         pdo_execute($sql);
     }
     function delete_taikhoan($id){

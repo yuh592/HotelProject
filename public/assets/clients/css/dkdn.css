@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+*{
+   font-family: 'Nunito', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+}
+
+html,body{
+   height: 100%;
+}
+.bg-image{
+   background-image: url("../../../upload/mc-dadmr-exterior34710-87592.jpg");
+   height: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   filter: blur(2px);
+}
+.container{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+   padding-bottom: 60px;
+}
+
+.container .content{
+   text-align: center;
+}
+
+.container .content h3{
+   font-size: 50px;
+   color:#fff;
+}
+
+.container .content h3 span{
+   /*background: rgb(220, 133, 20);*/
+   color:#333;
+   border-radius: 5px;
+   padding:0 15px;
+}
+
+.container .content h1{
+   font-size: 50px;
+   color:#333;
+}
+
+.container .content h1 span{
+   color:#fff;
+}
+
+.container .content p{
+   font-size: 40px;
+   margin-bottom: 20px;
+   color:#333;
+}
+
+.container .content .btn{
+   display: inline-block;
+   padding:10px 30px;
+   font-size: 20px;
+   background: #333;
+   color:#fff;
+   margin:0 5px;
+   text-transform: capitalize;
+}
+
+.container .content .btn:hover{
+   background: #FF4E00;
+}
+
+.form-container{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+   padding-bottom: 60px;
+   position: absolute;
+   top: 0%;
+   left: 37%;
+}
+
+.form-container form{
+   padding:20px;
+   border-radius: 10px;
+   box-shadow: 0 5px 10px rgba(0,0,0,.1);
+   background: #fff;
+   text-align: center;
+   width: 500px;
+  
+}
+
+.form-container form h3{
+   font-size: 30px;
+   text-transform: uppercase;
+   margin-bottom: 10px;
+   color:#333;
+}
+
+.form-container form input,
+.form-container form select{
+   width: 100%;
+   padding:10px 15px;
+   font-size: 17px;
+   margin:8px 0;
+   background: #eee;
+   border-radius: 5px;
+}
+
+.form-container form .form-btn{
+   background: #076dcc;
+   color:#fff;
+   text-transform: capitalize;
+   font-size: 20px;
+   cursor: pointer;
+}
+
+.form-container form .form-btn:hover{
+   transform: scale(1.03);
+   transition: 0.3s ease-in-out;
+}
+
+.form-container form p{
+   margin-top: 10px;
+   font-size: 20px;
+   color:#333;
+}
+.form-container form label{
+   display: flex;
+   
+}
+.form-container form p a{
+   color:#076dcc;
+}
+
+.form-container form .error-msg{
+   margin:10px 0;
+   display: block;
+   background: #076dcc;
+   color:#fff;
+   border-radius: 5px;
+   font-size: 20px;
+   padding:10px;
+}
+.checkbox-container {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 15px;
+ }
+ .checkbox-container input#cb4{
+     position: relative;
+     top: 0;
+     left: 0;
+     height: 25px;
+     width: 25px;
+     border-radius: 3px;
+     background-color: #fdfdfd;
+     border: 1px solid #dcdcdc;
+ }
+ .checkbox-container label{
+   font-family: 'Nunito', sans-serif;
+   font-weight: 400;
+   margin-top: 2px;
+   text-align: start;
+ }
+ .checkbox-container label a{
+   text-decoration: none;
+   color: #076dcc;
+   font-weight: 400; }
+   
+   .form-container  a{
+      font-weight: 300;
+      color: #076dcc;
+      text-decoration: none;
+      text-align: center;
+    }
+    .form-container  p a{
+      font-weight: 700;
+      color: #076dcc;
+      text-decoration: none;
+    }
+    .form-container  a:hover,
+    .form-container  a:hover{
+      text-decoration: underline;
+    }

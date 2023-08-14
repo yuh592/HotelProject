@@ -5,7 +5,7 @@
 function pdo_get_connection(){
     $dburl = "mysql:host=localhost;dbname=khachsan;charset=utf8";
     $user = 'root';
-    $password = 'nghiatq123';
+    $password = '';
 
     $conn = new PDO($dburl, $user, $password);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
