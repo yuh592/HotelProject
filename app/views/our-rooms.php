@@ -22,7 +22,7 @@
                                                                             <div class="slide-content">
                                                                                 <div class="caption">
                                                                                     <div class="title">
-                                                                                        <h2>Suite Gia đình nhìn ra Matterhorn ở tầng trên cùng. Kể từ lần cải tạo cuối cùng của chúng tôi vào năm 2018</h2>
+                                                                                        <h2>Suite Gia đình nhìn ra mặt biển ở tầng trên cùng. Kể từ lần cải tạo cuối cùng của chúng tôi vào năm 2018</h2>
                                                                                     </div>
                                                                                     <div class="text"></div>
                                                                                 </div>

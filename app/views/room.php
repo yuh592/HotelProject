@@ -117,7 +117,7 @@
                                                         <div class="elementor-widget-container">
                                                             <h2 class="elementor-heading-title elementor-size-default">
                                                                 dịch vụ của chúng tôi và<br />
-                                                                kỳ quan Praha
+                                                                bãi biển Non Nước
                                                             </h2>
                                                         </div>
                                                     </div>

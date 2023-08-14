@@ -39,7 +39,7 @@
                                                                                         <div class="slide is-active">
                                                                                             <div class="slide-content">
                                                                                                 <div class="caption">
-                                                                                                    <div class="title"><h2>Memories are like mulligatawny soup in a cheap restaurant. It is best not to stir them</h2></div>
+                                                                                                    <div class="title"><h2>Ký ức giống như súp mulligatawny trong một nhà hàng rẻ tiền. Tốt nhất là không khuấy chúng</h2></div>
                                                                                                     <div class="text"></div>
                                                                                                 </div>
                                                                                             </div>
@@ -50,7 +50,7 @@
                                                                                         <div class="slide">
                                                                                             <div class="slide-content">
                                                                                                 <div class="caption">
-                                                                                                    <div class="title"><h2>The livelihood of the restaurant is dependent upon getting the word out</h2></div>
+                                                                                                    <div class="title"><h2>Sinh kế của nhà hàng phụ thuộc vào việc quảng bá</h2></div>
                                                                                                     <div class="text"></div>
                                                                                                 </div>
                                                                                             </div>
@@ -61,7 +61,7 @@
                                                                                         <div class="slide">
                                                                                             <div class="slide-content">
                                                                                                 <div class="caption">
-                                                                                                    <div class="title"><h2>I only have the restaurant. If I do other things, it&#039;s only to do with the restaurant</h2></div>
+                                                                                                    <div class="title"><h2>Tôi chỉ có nhà hàng. Nếu tôi làm những việc khác, nó chỉ liên quan đến nhà hàng</h2></div>
                                                                                                     <div class="text"></div>
                                                                                                 </div>
                                                                                             </div>
@@ -157,7 +157,7 @@
                                                                         data-widget_type="heading.default"
                                                                     >
                                                                         <div class="elementor-widget-container">
-                                                                            <h2 class="elementor-heading-title elementor-size-default">Where the flavor inebriates you</h2>
+                                                                            <h2 class="elementor-heading-title elementor-size-default">Nơi hương vị làm bạn say mê</h2>
                                                                         </div>
                                                                     </div>
                                                                     <div
@@ -170,8 +170,7 @@
                                                                         <div class="elementor-widget-container">
                                                                             <div class="elementor-text-editor elementor-clearfix">
                                                                                 <p>
-                                                                                    See-through delicate embroidered organza blue lining luxury acetate-mix stretch pleat detailing. Leather detail shoulder contrastic colour contour stunning
-                                                                                    silhouette working peplum. Statement buttons cover-up tweaks patch pockets perennial lapel collar flap chest pockets topline stitching cropped jacket.
+                                                                                Là một nơi lý tưởng để bạn thả hồn, thư giãn và thưởng thức những loại đồ uống độc đáo. Với một danh sách đa dạng các cocktail biển cả và các loại rượu ngon, bạn sẽ có cơ hội trải nghiệm một phần không gian thú vị hòa quyện cùng tiếng sóng và không khí biển.
                                                                                 </p>
                                                                             </div>
                                                                         </div>
@@ -222,11 +221,6 @@
                                                                         data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
                                                                         data-widget_type="heading.default"
                                                                     >
-                                                                        <div class="elementor-widget-container">
-                                                                            <span class="elementor-heading-title elementor-size-default">
-                                                                                Each of our properties are uniquely positioned but are connected through a trail of peerless service
-                                                                            </span>
-                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -258,7 +252,7 @@
                                                                         data-widget_type="heading.default"
                                                                     >
                                                                         <div class="elementor-widget-container">
-                                                                            <h2 class="elementor-heading-title elementor-size-default">Speak with the taste</h2>
+                                                                            <h2 class="elementor-heading-title elementor-size-default">Giao tiếp bằng hương vị</h2>
                                                                         </div>
                                                                     </div>
                                                                     <div
@@ -269,7 +263,7 @@
                                                                         data-widget_type="heading.default"
                                                                     >
                                                                         <div class="elementor-widget-container">
-                                                                            <h2 class="elementor-heading-title elementor-size-default">We speak the good food language</h2>
+                                                                            <h2 class="elementor-heading-title elementor-size-default">Chúng tôi trân trọng giá trị cốt lõi của đồ ăn</h2>
                                                                         </div>
                                                                     </div>
                                                                     <div
@@ -282,8 +276,9 @@
                                                                         <div class="elementor-widget-container">
                                                                             <div class="elementor-text-editor elementor-clearfix">
                                                                                 <p>
-                                                                                    See-through delicate embroidered organza blue lining luxury acetate-mix stretch pleat detailing. Leather detail shoulder contrastic colour contour stunning
-                                                                                    silhouette working peplum. Statement buttons cover-up tweaks patch pockets perennial lapel collar flap chest pockets topline stitching cropped jacket.
+                                                                                Với vị trí ưu việt ngay bên bờ biển, Nhà hàng của chúng tôi tự hào mang đến cho quý khách một trải nghiệm ẩm thực độc đáo. Thực đơn của chúng tôi là sự kết hợp tinh tế giữa các món ăn biển tươi ngon và những nguyên liệu tươi sáng từ thiên nhiên. Từ các món hải sản tươi ngon như hàu, sò điệp, cá hồi, đến các món ăn chế biến độc đáo như món cá nướng than hoặc mì hải sản đầy hấp dẫn, chúng tôi cam kết mang đến cho bạn trải nghiệm thực sự đáng nhớ.
+
+Không gian của chúng tôi được thiết kế để kết nối bạn với biển cả. Hãy thả mắt ngắm nhìn xa xa qua cửa sổ rộng lớn và cảm nhận cảm giác của sóng biển và hương vị mặn mà nơi đây. Chúng tôi luôn tập trung vào việc mang đến không gian thân thiện và thoải mái, giúp bạn tận hưởng bữa ăn một cách thong thả và thú vị.
                                                                                 </p>
                                                                             </div>
                                                                         </div>
@@ -365,11 +360,6 @@
                                                                         data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
                                                                         data-widget_type="heading.default"
                                                                     >
-                                                                        <div class="elementor-widget-container">
-                                                                            <span class="elementor-heading-title elementor-size-default">
-                                                                                Each of our properties are uniquely positioned but are connected through a trail of peerless service
-                                                                            </span>
-                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -413,8 +403,8 @@
                                                                     >
                                                                         <div class="elementor-widget-container">
                                                                             <h2 class="elementor-heading-title elementor-size-default">
-                                                                                Beyond the boundaries of taste<br />
-                                                                                Experience the great food
+                                                                                Vượt qua giới hạn của hương vị<br />
+                                                                                Trải nghiệm ẩm thực độc đáo
                                                                             </h2>
                                                                         </div>
                                                                     </div>
@@ -451,14 +441,14 @@
                                                                             <div class="tg_flip_box_wrapper square-flip">
                                                                                 <div class="square" data-image="../../../public/upload/St-Moritz-Guest-Room.jpg">
                                                                                     <div class="square-container">
-                                                                                        <h2>Free Breakfast Included</h2>
+                                                                                        <h2>Bao gồm bữa sáng miễn phí</h2>
                                                                                     </div>
                                                                                     <div class="flip-overlay"></div>
                                                                                 </div>
                                                                                 <div class="square2" data-image="../../../public/upload/1551336909_5c7785cd1a9e7-thumb.jpg">
                                                                                     <div class="square-container2">
                                                                                         <div class="align-center"></div>
-                                                                                        <h2>Breakfast included when booking the Junior Suite</h2>
+                                                                                        <h2>Bữa sáng đi kèm khi đặt phòng luxury</h2>
                                                                                         <a class="button" href="index.html" class="boxshadow button">View Offer</a>
                                                                                     </div>
                                                                                     <div class="flip-overlay"></div>
@@ -488,14 +478,14 @@
                                                                             <div class="tg_flip_box_wrapper square-flip">
                                                                                 <div class="square" data-image="../../../public/upload/St-Moritz-Guest-Room.jpg">
                                                                                     <div class="square-container">
-                                                                                        <h2>10% for advanced booking</h2>
+                                                                                        <h2>Giảm 10% khi đặt trước</h2>
                                                                                     </div>
                                                                                     <div class="flip-overlay"></div>
                                                                                 </div>
                                                                                 <div class="square2" data-image="../../../public/upload/1551336909_5c7785cd1a9e7-thumb.jpg">
                                                                                     <div class="square-container2">
                                                                                         <div class="align-center"></div>
-                                                                                        <h2>Benefit from a 10% discount, reservations with a minimum of 3 days in advance</h2>
+                                                                                        <h2>Ưu đãi giảm giá 10%, đối với những đặt chỗ được thực hiện ít nhất 3 ngày trước</h2>
                                                                                         <a class="button" href="index.html" class="boxshadow button">View Offer</a>
                                                                                     </div>
                                                                                     <div class="flip-overlay"></div>
@@ -525,14 +515,14 @@
                                                                             <div class="tg_flip_box_wrapper square-flip">
                                                                                 <div class="square" data-image="../../../public/upload/St-Moritz-Guest-Room.jpg">
                                                                                     <div class="square-container">
-                                                                                        <h2>15% for non refundable booking</h2>
+                                                                                        <h2>15% cho đặt trước phòng không hoàn lại.</h2>
                                                                                     </div>
                                                                                     <div class="flip-overlay"></div>
                                                                                 </div>
                                                                                 <div class="square2" data-image="../../../public/upload/1551336909_5c7785cd1a9e7-thumb.jpg">
                                                                                     <div class="square-container2">
                                                                                         <div class="align-center"></div>
-                                                                                        <h2>Benefit from a 15% discount, making your reservations with a minimum of 15 days in advance</h2>
+                                                                                        <h2>Ưu đãi giảm giá 15%, khi bạn đặt chỗ trước ít nhất 15 ngày.</h2>
                                                                                         <a class="button" href="index.html" class="boxshadow button">View Offer</a>
                                                                                     </div>
                                                                                     <div class="flip-overlay"></div>

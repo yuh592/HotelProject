@@ -35,7 +35,7 @@
                                                                             <div class="slide-content">
                                                                                 <div class="caption">
                                                                                     <div class="title">
-                                                                                        <h2>Tất cả các lựa chọn chỗ ở của chúng tôi bao gồm các tiện nghi sang trọng như trà &amp; máy pha cà phê, minibar</h2>
+                                                                                        <h2>Tất cả các lựa chọn chỗ ở của chúng tôi bao gồm các tiện nghi sang trọng như máy pha trà, cà phê và minibar</h2>
                                                                                     </div>
                                                                                     <div class="text"></div>
                                                                                 </div>
@@ -48,7 +48,7 @@
                                                                             <div class="slide-content">
                                                                                 <div class="caption">
                                                                                     <div class="title">
-                                                                                        <h2>Sinh kế của nhà hàng phụ thuộc vào việc thông báo</h2>
+                                                                                        <h2>Sự tồn tại của nhà hàng phụ thuộc vào việc lan truyền thông tin</h2>
                                                                                     </div>
                                                                                     <div class="text"></div>
                                                                                 </div>
@@ -99,8 +99,8 @@
                                                         <div class="elementor-widget-container">
                                                             <div class="elementor-text-editor elementor-clearfix">
                                                                 <p>
-                                                                    512 Trần Khát Chân, <br />
-                                                                    Hai Bà Trưng, Hà Nội
+                                                                7 Trường Sa, <br />
+                                                                    Ngũ Hành Sơn, Đà Nẵng
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -113,13 +113,13 @@
                                                 <div class="elementor-widget-wrap">
                                                     <div class="elementor-element elementor-element-3dfd359 elementor-widget elementor-widget-heading" data-id="3dfd359" data-element_type="widget" data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="heading.default">
                                                         <div class="elementor-widget-container">
-                                                            <h2 class="elementor-heading-title elementor-size-default">Bằng xe hơi</h2>
+                                                            <h2 class="elementor-heading-title elementor-size-default">Bằng máy bay</h2>
                                                         </div>
                                                     </div>
                                                     <div class="elementor-element elementor-element-4b1039d elementor-widget elementor-widget-text-editor" data-id="4b1039d" data-element_type="widget" data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="text-editor.default">
                                                         <div class="elementor-widget-container">
                                                             <div class="elementor-text-editor elementor-clearfix">
-                                                                <p>Khoảng 5 phút từ đường dốc St. Moritz, hoặc 10 phút từ đường dốc Piz Albana.</p>
+                                                                <p>Cách sân bay Đà Nẵng 11km</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -137,7 +137,7 @@
                                                     <div class="elementor-element elementor-element-1da108e elementor-widget elementor-widget-text-editor" data-id="1da108e" data-element_type="widget" data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="text-editor.default">
                                                         <div class="elementor-widget-container">
                                                             <div class="elementor-text-editor elementor-clearfix">
-                                                                <p>7 phút đi bộ từ Ga St. Moritz hoặc 15 phút đi bộ từ Ga Paracelsus.</p>
+                                                                <p>Cách ga Đà Nẵng 11km</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -202,8 +202,8 @@
                                                     <div class="elementor-element elementor-element-521ec02 elementor-invisible elementor-widget elementor-widget-heading" data-id="521ec02" data-element_type="widget" data-settings='{"_animation":"fadeInUp","_animation_delay":200,"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="heading.default">
                                                         <div class="elementor-widget-container">
                                                             <h2 class="elementor-heading-title elementor-size-default">
-                                                            Khu nghỉ dưỡng Alpine Hideaway<br />
-                                                            Trải nghiệm kỳ quan của Praha
+                                                            Đà Nẵng Mariott<br />
+                                                            Trải nghiệm dịch vụ tốt nhất
                                                             </h2>
                                                         </div>
                                                     </div>
@@ -242,25 +242,22 @@
                                                 <div class="elementor-widget-wrap">
                                                     <div class="elementor-element elementor-element-2986d96 elementor-invisible elementor-widget elementor-widget-heading" data-id="2986d96" data-element_type="widget" data-settings='{"_animation":"fadeInUp","hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="heading.default">
                                                         <div class="elementor-widget-container">
-                                                            <span class="elementor-heading-title elementor-size-default">Những nơi gần đó</span>
+                                                            <span class="elementor-heading-title elementor-size-default">Near by</span>
                                                         </div>
                                                     </div>
                                                     <div class="elementor-element elementor-element-0693329 elementor-invisible elementor-widget elementor-widget-heading" data-id="0693329" data-element_type="widget" data-settings='{"_animation":"fadeInUp","_animation_delay":200,"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="heading.default">
                                                         <div class="elementor-widget-container">
                                                             <h2 class="elementor-heading-title elementor-size-default">
                                                             Khám phá và trải nghiệm<br />
-                                                            những nơi kỳ diệu gần khách sạn của chúng tôi
+                                                            những nơi nổi tiếng gần khách sạn của chúng tôi
                                                             </h2>
                                                         </div>
                                                     </div>
                                                     <div class="elementor-element elementor-element-a487eb1 elementor-invisible elementor-widget elementor-widget-heading" data-id="a487eb1" data-element_type="widget" data-settings='{"_animation":"fadeInUp","_animation_delay":400,"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="heading.default">
-                                                        <div class="elementor-widget-container">
-                                                            <span class="elementor-heading-title elementor-size-default">Tương ứng trong thời gian này, có rất nhiều bữa tiệc và diễn biến</span>
-                                                        </div>
                                                     </div>
                                                     <div class="elementor-element elementor-element-075fa26 elementor-invisible elementor-widget elementor-widget-hoteller-slider-synchronized-carousel" data-id="075fa26" data-element_type="widget" data-settings='{"_animation":"fadeIn","_animation_delay":800,"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="hoteller-slider-synchronized-carousel.default">
                                                         <div class="elementor-widget-container">
-                                                            <div id="tg_synchronized_carousel_slider_075fa26" data-pagination="tg_synchronized_carousel_pagination_075fa26" class="tg_synchronized_carousel_slider_wrapper sliders-container" data-countslide="3" data-slidetitles='["Beautiful Highest Alph Mountain","Skiing in the forest","Experience mountain train express"]' data-slideimages='["../../../public/upload/hike-in-peru-PQ9G59X.jpg","../../../public/upload/boy-and-girl-skiing-in-forest-P332MXA.jpg","../../../public/upload/swiss-mountain-train-bernina-express-VZ6R3PU.jpg"]' data-slidebuttontitles='["","",""]' data-slidebuttonurls='["","",""]'>
+                                                            <div id="tg_synchronized_carousel_slider_075fa26" data-pagination="tg_synchronized_carousel_pagination_075fa26" class="tg_synchronized_carousel_slider_wrapper sliders-container" data-countslide="3" data-slidetitles='["Mt.Ngu Hanh Son","Dragon Bridge","Non Nuoc Beach"]' data-slideimages='["../../../public/upload/nui.jpg","../../../public/upload/cau.jpg","../../../public/upload/baibien.jpg"]' data-slidebuttontitles='["","",""]' data-slidebuttonurls='["","",""]'>
                                                                 <ul id="tg_synchronized_carousel_pagination_075fa26" class="tg_synchronized_carousel_pagination">
                                                                     <li class="pagination__item"><a class="pagination__button"></a></li>
                                                                     <li class="pagination__item"><a class="pagination__button"></a></li>

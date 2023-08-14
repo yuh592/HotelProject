@@ -40,7 +40,7 @@
                                                                                         <div class="slide is-active">
                                                                                             <div class="slide-content">
                                                                                                 <div class="caption">
-                                                                                                    <div class="title"><h2>All of our accommodation options comprise luxury amenities such as tea &amp; coffee makers, minibars</h2></div>
+                                                                                                    <div class="title"><h2>Tất cả các lựa chọn chỗ ở của chúng tôi bao gồm các tiện nghi sang trọng như máy pha trà, cà phê và minibar</h2></div>
                                                                                                     <div class="text"></div>
                                                                                                 </div>
                                                                                             </div>
@@ -51,7 +51,7 @@
                                                                                         <div class="slide">
                                                                                             <div class="slide-content">
                                                                                                 <div class="caption">
-                                                                                                    <div class="title"><h2>The livelihood of the restaurant is dependent upon getting the word out</h2></div>
+                                                                                                    <div class="title"><h2>Sự tồn tại của nhà hàng phụ thuộc vào việc lan truyền thông tin</h2></div>
                                                                                                     <div class="text"></div>
                                                                                                 </div>
                                                                                             </div>
@@ -62,7 +62,7 @@
                                                                                         <div class="slide">
                                                                                             <div class="slide-content">
                                                                                                 <div class="caption">
-                                                                                                    <div class="title"><h2>Great choice for a relaxing vacation for families with children or a group of friends</h2></div>
+                                                                                                    <div class="title"><h2>Lựa chọn tuyệt vời cho một kỳ nghỉ thư giãn cho gia đình có trẻ em hoặc một nhóm bạn</h2></div>
                                                                                                     <div class="text"></div>
                                                                                                 </div>
                                                                                             </div>
@@ -147,7 +147,7 @@
                                                                         data-widget_type="heading.default"
                                                                     >
                                                                         <div class="elementor-widget-container">
-                                                                            <h2 class="elementor-heading-title elementor-size-default">Luxury &amp; Comfort</h2>
+                                                                            <h2 class="elementor-heading-title elementor-size-default">Luxury & Comfort</h2>
                                                                         </div>
                                                                     </div>
                                                                     <div
@@ -159,8 +159,8 @@
                                                                     >
                                                                         <div class="elementor-widget-container">
                                                                             <h2 class="elementor-heading-title elementor-size-default">
-                                                                                Our services and<br />
-                                                                                wonders of Prague
+                                                                                Dịch vụ của chúng tôi và<br />
+                                                                                bãi biển Non Nước
                                                                             </h2>
                                                                         </div>
                                                                     </div>
@@ -174,8 +174,9 @@
                                                                         <div class="elementor-widget-container">
                                                                             <div class="elementor-text-editor elementor-clearfix">
                                                                                 <p>
-                                                                                    See-through delicate embroidered organza blue lining luxury acetate-mix stretch pleat detailing. Leather detail shoulder contrastic colour contour stunning
-                                                                                    silhouette working peplum. Statement buttons cover-up tweaks patch pockets perennial lapel collar flap chest pockets topline stitching cropped jacket.
+                                                                                Khách sạn tọa lạc bên bờ biển Non Nước - một thiên đàng nghỉ dưỡng với cát trắng mịn màng và biển xanh biếc, mang đến cho bạn một trải nghiệm nghỉ ngơi đích thực trong vòng tay của biển cả.
+
+Với vị trí độc đáo hướng ra bãi biển, khách sạn chúng tôi tự hào cung cấp cho quý khách một khung cảnh hùng vĩ và tĩnh lặng, tạo điều kiện tuyệt vời để bạn thoải mái thư giãn và tái tạo năng lượng.
                                                                                 </p>
                                                                             </div>
                                                                         </div>
@@ -191,7 +192,7 @@
                                                                             <div class="elementor-button-wrapper">
                                                                                 <a href="our-rooms.html" class="elementor-button-link elementor-button elementor-size-sm" role="button">
                                                                                     <span class="elementor-button-content-wrapper">
-                                                                                        <span class="elementor-button-text">Our Rooms</span>
+                                                                                        <span class="elementor-button-text">Về phòng của chúng tôi</span>
                                                                                     </span>
                                                                                 </a>
                                                                             </div>
@@ -239,8 +240,8 @@
                                                                     >
                                                                         <div class="elementor-widget-container">
                                                                             <h2 class="elementor-heading-title elementor-size-default">
-                                                                                Alpine Hideaway Resort<br />
-                                                                                Experience wonders of Prague
+                                                                                Đà Nẵng Mariott<br />
+                                                                                Trải nghiệm dịch vụ tốt nhất
                                                                             </h2>
                                                                         </div>
                                                                     </div>
@@ -253,9 +254,8 @@
                                                                     >
                                                                         <div class="elementor-widget-container">
                                                                             <div class="elementor-text-editor elementor-clearfix">
-                                                                                <p class="p1">
-                                                                                    Polished finish elegant court shoe work duty stretchy slingback strap mid kitten heel this ladylike design slingback strap mid kitten heel this ladylike
-                                                                                    design. Leather detail shoulder contrast colour contour stunning silhouette working peplum.
+                                                                                <p style="font-family: 'Be Vietnam Pro', sans-serif;" class="p1">
+                                                                                Bạn sẽ được đắm mình trong không gian thoải mái và hiện đại, với các phòng nghỉ thiết kế thông thoáng và tiện nghi đầy đủ. Từ những buổi sáng bước ra ban công hướng biển, bạn sẽ được chào đón bởi tiếng sóng và hương biển mặn mà.
                                                                                 </p>
                                                                             </div>
                                                                         </div>
@@ -293,46 +293,43 @@
                                                                             <div class="timeline_wrapper">
                                                                                 <div class="timeline_entry">
                                                                                     <div class="timeline_title">
-                                                                                        <div class="timeline_image"><img src="../../../public/upload/101048866-768x576.jpg" alt="" /></div>
+                                                                                        <div class="timeline_image"><img src="../../../public/upload/thanhlap.jpg" alt="" /></div>
                                                                                         <h3>2000</h3>
                                                                                     </div>
                                                                                     <div class="timeline_body">
                                                                                         <p>
-                                                                                            Foam padding in the insoles leather finest quality staple flat slip-on design pointed toe off-duty shoe. Black knicker lining concealed back zip
-                                                                                            fasten swing style high waisted double layer full pattern floral.
+                                                                                            Đà Nẵng Mariott được thành lập cùng với 60 nhân sự
                                                                                         </p>
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="timeline_entry">
                                                                                     <div class="timeline_title">
-                                                                                        <div class="timeline_image"><img src="../../../public/upload/chambermaid-changing-bed-linen-on-the-bed-in-a-PMUYXS6-768x512.jpg" alt="" /></div>
+                                                                                        <div class="timeline_image"><img src="../../../public/upload/bar.jpg" alt="" /></div>
                                                                                         <h3>2006</h3>
                                                                                     </div>
                                                                                     <div class="timeline_body">
-                                                                                        <p>Leather detail shoulder contrastic colour contour stunning silhouette working peplum. Statement buttons cover-up tweaks patch pockets.</p>
+                                                                                        <p>Mở rộng thêm dịch vụ Bar & Restaurant</p>
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="timeline_entry">
                                                                                     <div class="timeline_title">
-                                                                                        <div class="timeline_image"><img src="../../../public/upload/pont-saint-pierre-and-hotel-dieu-saint-jacques-ERV3QDU-768x512.jpg" alt="" /></div>
+                                                                                        <div class="timeline_image"><img src="../../../public/upload/khachsan.jpg" alt="" /></div>
                                                                                         <h3>2012</h3>
                                                                                     </div>
                                                                                     <div class="timeline_body">
                                                                                         <p>
-                                                                                            Effortless comfortable full leather lining eye-catching unique detail to the toe low ‘cut-away’ sides clean and sleek. Polished finish elegant court
-                                                                                            shoe work duty stretchy
+                                                                                            Trở thành một trong những khách sạn hàng đầu ở khu vực bãi biển Non Nước
                                                                                         </p>
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="timeline_entry">
                                                                                     <div class="timeline_title">
-                                                                                        <div class="timeline_image"><img src="../../../public/upload/bride-and-groom-having-meal-with-friends-at-PUDM5NY-768x538.jpg" alt="" /></div>
+                                                                                        <div class="timeline_image"><img src="../../../public/upload/tourist.jpg" alt="" /></div>
                                                                                         <h3>2017</h3>
                                                                                     </div>
                                                                                     <div class="timeline_body">
                                                                                         <p>
-                                                                                            Effortless comfortable full leather lining eye-catching unique detail to the toe low ‘cut-away’ sides clean and sleek. Polished finish elegant court
-                                                                                            shoe work duty stretchy
+                                                                                            Đón nhận gần 5000 du khách tới từ nước ngoài kể từ khu thành lập
                                                                                         </p>
                                                                                     </div>
                                                                                 </div>
@@ -381,9 +378,9 @@
                                                                         data-widget_type="heading.default"
                                                                     >
                                                                         <div class="elementor-widget-container">
-                                                                            <h2 class="elementor-heading-title elementor-size-default">
-                                                                                Explore & experience<br />
-                                                                                the magical places nearby our hotel
+                                                                            <h2 style="font-family: 'Be Vietnam Pro', sans-serif;" class="elementor-heading-title elementor-size-default">
+                                                                                Khám phá và trải nghiệm<br />
+                                                                                những địa danh nổi tiếng ở gần chúng tôi
                                                                             </h2>
                                                                         </div>
                                                                     </div>
@@ -395,7 +392,7 @@
                                                                         data-widget_type="heading.default"
                                                                     >
                                                                         <div class="elementor-widget-container">
-                                                                            <span class="elementor-heading-title elementor-size-default">Correspondingly during this time, there are a lot of parties, and happenings going on</span>
+                                                                            <span class="elementor-heading-title elementor-size-default">Không chỉ là một điểm nghỉ dưỡng, chúng tôi còn là cửa ngõ đến những điểm tham quan và trải nghiệm thú vị trong khu vực. Bãi biển tuyệt đẹp, những ngọn núi đá vôi độc đáo và những điểm đến văn hóa đang chờ bạn khám phá</span>
                                                                         </div>
                                                                     </div>
                                                                     <div
@@ -407,10 +404,8 @@
                                                                     >
                                                                         <div class="elementor-widget-container">
                                                                             <div class="elementor-text-editor elementor-clearfix">
-                                                                                <p class="p1">
-                                                                                    If you visit us in low-season, which ranges between end of April to mid-June and end of October to mid-December, you will find a small sleepy village with
-                                                                                    about 5’000 locals, surrounded by a quiet beautiful nature, where the bells of the blacknose sheep on the meadows around the village are the only
-                                                                                    perceivable noise.
+                                                                                <p style="font-family: 'Be Vietnam Pro', sans-serif;" class="p1">
+                                                                                Với vị trí ưu việt, chúng tôi mang đến cho bạn cơ hội tận hưởng không gian đẹp mắt với tầm nhìn ra biển, khi mà tiếng sóng và gió biển luôn đồng hành cùng bạn. Khách sạn của chúng tôi là nơi bạn có thể thư giãn trong các phòng nghỉ hiện đại và tiện nghi, cùng với các dịch vụ chất lượng cao để đảm bảo mọi nhu cầu của bạn được đáp ứng
                                                                                 </p>
                                                                             </div>
                                                                         </div>
@@ -428,8 +423,8 @@
                                                                                 data-pagination="tg_synchronized_carousel_pagination_e6303ac"
                                                                                 class="tg_synchronized_carousel_slider_wrapper sliders-container"
                                                                                 data-countslide="3"
-                                                                                data-slidetitles='["Beautiful Highest Alph Mountain","Skiing in the forest","Experience mountain train express"]'
-                                                                                data-slideimages='["../../../public/upload/St-Moritz-Guest-Room.jpg","../../../public/upload/St-Moritz-Guest-Room.jpg","../../../public/upload/St-Moritz-Guest-Room.jpg"]'
+                                                                                data-slidetitles='["Mt. Ngu Hanh Son","Dragon Bridge","Non Nuoc Beach"]'
+                                                                                data-slideimages='["../../../public/upload/nui.jpg","../../../public/upload/cau.jpg","../../../public/upload/baibien.jpg"]'
                                                                                 data-slidebuttontitles='["","",""]'
                                                                                 data-slidebuttonurls='["","",""]'
                                                                             >
@@ -472,7 +467,7 @@
                                                                         data-widget_type="heading.default"
                                                                     >
                                                                         <div class="elementor-widget-container">
-                                                                            <h2 class="elementor-heading-title elementor-size-default">All the services offered by a boutique hotel in Prague with the experience of a luxury hotel.</h2>
+                                                                            <h2 class="elementor-heading-title elementor-size-default">Chúng tôi chú trọng vào việc chăm chút cho trải nghiệm của khách hàng.</h2>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -520,12 +515,10 @@
                                                                         <div class="elementor-widget-container">
                                                                             <div class="elementor-text-editor elementor-clearfix">
                                                                                 <p>
-                                                                                    See-through delicate embroidered organza blue lining luxury acetate-mix stretch pleat detailing. Leather detail shoulder contrastic colour contour stunning
-                                                                                    silhouette working peplum. Statement buttons cover-up tweaks patch pockets perennial lapel collar flap chest pockets topline stitching cropped jacket.
+                                                                                Với sự kết hợp tinh tế giữa phong cách hiện đại và độc đáo, mọi góc nhỏ của khách sạn đều thể hiện sự chăm chút đặc biệt từ việc lựa chọn nội thất cho đến việc bố trí mỗi chi tiết. Từ những chiếc giường êm ái, đến không gian phòng tắm sang trọng, mọi phần của khách sạn đều mang đến cho bạn cảm giác ấm cúng và thoải mái.
                                                                                 </p>
                                                                                 <p>
-                                                                                    Effortless comfortable full leather lining eye-catching unique detail to the toe low ‘cut-away’ sides clean and sleek. Polished finish elegant court shoe
-                                                                                    work duty stretchy slingback strap mid kitten heel this ladylike design slingback strap mid kitten heel this ladylike design.
+                                                                                Không gian chúng tôi được thiết kế để kết nối bạn với môi trường xung quanh. Cửa sổ rộng lớn mở ra những tầm nhìn tuyệt đẹp ra biển hay thành phố phồn thị. Bạn có thể thả mình trên ghế dài và thưởng thức cảnh quan thú vị.
                                                                                 </p>
                                                                             </div>
                                                                         </div>
