@@ -40,7 +40,7 @@
                                                                                         <div class="slide is-active">
                                                                                             <div class="slide-content">
                                                                                                 <div class="caption">
-                                                                                                    <div class="title"><h2>Tất cả các lựa chọn chỗ ở của chúng tôi bao gồm các tiện nghi sang trọng như máy pha trà, cà phê và minibar</h2></div>
+                                                                                                    <div class="title"><h2>Không gian đầy đủ tiện nghi như ở nhà</h2></div>
                                                                                                     <div class="text"></div>
                                                                                                 </div>
                                                                                             </div>
@@ -51,7 +51,7 @@
                                                                                         <div class="slide">
                                                                                             <div class="slide-content">
                                                                                                 <div class="caption">
-                                                                                                    <div class="title"><h2>Sự tồn tại của nhà hàng phụ thuộc vào việc lan truyền thông tin</h2></div>
+                                                                                                    <div class="title"><h2>Sự hài lòng của khách hàng là tôn chỉ của chúng tôi</h2></div>
                                                                                                     <div class="text"></div>
                                                                                                 </div>
                                                                                             </div>
@@ -62,7 +62,7 @@
                                                                                         <div class="slide">
                                                                                             <div class="slide-content">
                                                                                                 <div class="caption">
-                                                                                                    <div class="title"><h2>Lựa chọn tuyệt vời cho một kỳ nghỉ thư giãn cho gia đình có trẻ em hoặc một nhóm bạn</h2></div>
+                                                                                                    <div class="title"><h2>Lựa chọn tuyệt vời cho một kỳ nghỉ</h2></div>
                                                                                                     <div class="text"></div>
                                                                                                 </div>
                                                                                             </div>
@@ -423,7 +423,7 @@ Với vị trí độc đáo hướng ra bãi biển, khách sạn chúng tôi t
                                                                                 data-pagination="tg_synchronized_carousel_pagination_e6303ac"
                                                                                 class="tg_synchronized_carousel_slider_wrapper sliders-container"
                                                                                 data-countslide="3"
-                                                                                data-slidetitles='["Mt. Ngu Hanh Son","Dragon Bridge","Non Nuoc Beach"]'
+                                                                                data-slidetitles='["Núi Ngũ Hành Sơn","Cầu Rồng","Bãi biển Non Nước"]'
                                                                                 data-slideimages='["../../../public/upload/nui.jpg","../../../public/upload/cau.jpg","../../../public/upload/baibien.jpg"]'
                                                                                 data-slidebuttontitles='["","",""]'
                                                                                 data-slidebuttonurls='["","",""]'
