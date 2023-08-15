@@ -175,7 +175,7 @@ if ((isset($_GET['act'])) && ($_GET['act'] != "")) {
             $date = getdate();
             $ngaybinhluan = $date['year'] . "/" . $date['mon'] . "/" . $date['mday'];
             insert_binhluan($noidung, $iduser, $ngaybinhluan, $idroom);
-            header("location:http://localhost/HotelProject/app/controllers/user/index.php?act=room&id=$idroom");
+            header("location:http://localhost/HotelProject/app/controllers/user/index.php?act=room&id=$idroom#comments");
             break;
         case 'suabl':
             if (isset($_GET['id']) && ($_GET['id'] > 0)) {
@@ -189,7 +189,7 @@ if ((isset($_GET['act'])) && ($_GET['act'] != "")) {
             $idroom = $_POST['idroom'];
             update_binhluan($id, $noidung);
             $thongbao = "Cập nhật thành công!";
-            header("location:http://localhost:/HotelProject/app/controllers/user/index.php?act=room&id=$idroom");
+            header("location:http://localhost:/HotelProject/app/controllers/user/index.php?act=room&id=$idroom#comments");
             break;
         case 'xoabl':
             $idroom = $_GET['idp'];
@@ -197,7 +197,7 @@ if ((isset($_GET['act'])) && ($_GET['act'] != "")) {
                 delete_binhluan($_GET['id']);
             }
             // $listbl = load_binhluan($id);
-            header("location:http://localhost/HotelProject/app/controllers/user/index.php?act=room&id=$idroom");
+            header("location:http://localhost/HotelProject/app/controllers/user/index.php?act=room&id=$idroom#comments");
             break;
         case 'tk':
             include "../../views/info.php";

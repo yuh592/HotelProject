@@ -163,7 +163,7 @@
                                                                                 $listlp = loadall_loaiphong_ourrooms();
                                                                                 foreach ($listlp as $loaiphong) {
                                                                                     extract($loaiphong);
-                                                                                    $linklp = "../../../controllers/user/index.php?act=ourrooms&idlp=" . $id_loaiphong;
+                                                                                    $linklp = "../../controllers/user/index.php?act=ourrooms&idlp=" . $id_loaiphong;
                                                                                     echo '
                                                                                             <li class="header__navbar-user-item">
                                                                                                 <a class="text-xl" href="' . $linklp . '">' . $name_loaiphong . '</a>

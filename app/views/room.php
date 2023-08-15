@@ -287,7 +287,7 @@
                                     </div>
                                 </div>
                             </section>
-                            <section class=" my-10 ">
+                            <section class=" my-10 " id="comments">
 
                                 <div class="border-b-zinc-900 border border-solid border-x-white border-t-white">
                                     <p class="bg-slate-100 p-3 w-40 ">BÌNH LUẬN</p>
@@ -600,7 +600,7 @@
                                                                     } else {
                                                                     ?>
                                                                         <div>
-                                                                            <button style="background-color:#06283D;margin-left:8px;border:1px solid #DFF6FF;"><a style="padding: 10px 20px;color:#DFF6FF;text-decoration:none;" href="./dangnhap.php">Đăng Nhập Để Đặt Phòng</a> </button>
+                                                                            <button style="background-color:#06283D;margin-left:8px;border:1px solid #DFF6FF;"><a style="padding: 10px 20px;color:#DFF6FF;text-decoration:none;" href="../../views/dangnhap.php">Đăng Nhập Để Đặt Phòng</a> </button>
                                                                         </div>
                                                                     <?php } ?>
                                                                 </div>
