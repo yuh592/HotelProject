@@ -1,27 +1,7 @@
 <?php
-    include "../app/models/pdo.php";
-    $id = $_GET['idorder'];
-    $sql="select * from datphong where id_order = $id";
-    $hd=pdo_query_one($sql);
+    include "../../../app/models/pdo.php";
 ?>
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <title>Tạo mới đơn hàng</title>
-        <!-- Bootstrap core CSS -->
-        <link href="assets/bootstrap.min.css" rel="stylesheet"/>
-        <!-- Custom styles for this template -->
-        <link href="assets/jumbotron-narrow.css" rel="stylesheet">  
-        <script src="assets/jquery-1.11.3.min.js"></script>
-    </head>
     <body>
-        <?php require_once("config.php"); ?>
         <div class="container">
             <div class="header clearfix">
                 <h3 class="text-muted">VNPAY DEMO</h3>
@@ -34,13 +14,13 @@
                     <div class="form-group">
                         <label for="order_id">Mã hóa đơn</label>
                         <!-- id_order -->
-                        <input class="form-control" id="order_id" name="order_id" type="text" value="<?php echo $id;?>"/> 
+                        <input class="form-control" id="order_id" name="order_id" type="text" value="<?php echo $idp;?>"/> 
                     </div>
                     <div class="form-group">
                         <label for="amount">Số tiền</label>
                         <!-- tổng tiền -->
                         <input class="form-control" id="amount"
-                               name="amount" type="number" value="<?php echo $hd['tongtien']?>"/>
+                               name="amount" type="number" value=""/>
                     </div>
                     
                     <div class="form-group">
@@ -59,7 +39,7 @@
                     <div class="form-group">
                         <label >Thời hạn thanh toán</label>
                         <input class="form-control" id="txtexpire"
-                               name="txtexpire" type="text" value="<?php echo $expire; ?>"/>
+                               name="txtexpire" type="text" value=""/>
                     </div>
                     <div class="form-group">
                         <h3>Thông tin hóa đơn (Billing)</h3>
@@ -93,9 +73,5 @@
             <p>
                 &nbsp;
             </p>
-            <footer class="footer">
-                <p>&copy; VNPAY <?php echo date('Y')?></p>
-            </footer>
         </div>  
     </body>
-</html>

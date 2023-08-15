@@ -6,10 +6,7 @@ if (is_array($lp)) {
 
 <div class="row">
     <div class="row mb headeradmin" style="width:1050px;">
-        <h1 style="padding: 15px 0;">ADMIN </h1>
-    </div>
-    <div class="row mb10 formtittle" style="width:1050px;">
-        <h3>CẬP NHẬT LOẠI PHÒNG</h3>
+        <h1 style="padding: 15px 0;"><b>CẬP NHẬT LOẠI PHÒNG</b></h1>
     </div>
     <?php
     if (isset($thongbao) && ($thongbao != "")) echo $thongbao;

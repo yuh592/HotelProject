@@ -246,7 +246,7 @@
                                                     <div class="elementor-element elementor-element-8a92eaf elementor-widget elementor-widget-image" data-id="8a92eaf" data-element_type="widget" data-settings='{"hoteller_image_is_animation":"false","hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="image.default">
                                                         <div class="elementor-widget-container">
                                                             <div class="elementor-image">
-                                                                <a href="../../views/home/index.php"> <img src="../../../public/upload/logo_black.png" title="" alt="" /> </a>
+                                                                <a href="../../controllers/user/index.php"> <img src="../../../public/upload/logo_black.png" title="" alt="" /> </a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -297,7 +297,7 @@
                                                                                 </a>
                                                                                 <ol class="header__navbar-user-menu">
                                                                                     <li class="header__navbar-user-item">
-                                                                                        <a class="header__navbar-item-link" href="../info.php">TÀI KHOẢN CỦA TÔI/</a>
+                                                                                        <a class="header__navbar-item-link" href="../../controllers/user/index.php?act=tk">TÀI KHOẢN CỦA TÔI/</a>
                                                                                     </li>
 
 

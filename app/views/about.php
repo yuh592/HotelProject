@@ -423,7 +423,7 @@ Với vị trí độc đáo hướng ra bãi biển, khách sạn chúng tôi t
                                                                                 data-pagination="tg_synchronized_carousel_pagination_e6303ac"
                                                                                 class="tg_synchronized_carousel_slider_wrapper sliders-container"
                                                                                 data-countslide="3"
-                                                                                data-slidetitles='["Mt. Ngu Hanh Son","Dragon Bridge","Non Nuoc Beach"]'
+                                                                                data-slidetitles='["Núi Ngũ Hành Sơn","Cầu Rồng","Bãi biển Non Nước"]'
                                                                                 data-slideimages='["../../../public/upload/nui.jpg","../../../public/upload/cau.jpg","../../../public/upload/baibien.jpg"]'
                                                                                 data-slidebuttontitles='["","",""]'
                                                                                 data-slidebuttonurls='["","",""]'

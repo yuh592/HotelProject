@@ -1,9 +1,6 @@
 <div class="row">
     <div class="row mb headeradmin" style="width:1050px;">
-        <h1 style="padding: 15px 0;">ADMIN </h1>
-    </div>
-    <div class="row formtittle" style="width:1050px;">
-        <h3>DANH SÁCH LOẠI PHÒNG </h3>
+        <h1 style="padding: 15px 0;"><b>DANH SÁCH LOẠI PHÒNG</b></h1>
     </div>
     <div class="row formcontent" style="width:1500px;">
         <form action="index.php?act=listlp" method="post">

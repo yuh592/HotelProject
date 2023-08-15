@@ -457,12 +457,6 @@
                                                                 <span class="mphb-preloader mphb-hide"></span>
                                                             </p>
                                                         </form>
-                                                        <script>
-                                                            $("#comfirm").click(function(e) {
-                                                                e.preventDefault();
-                                                                $("#content").load("comfirm.php");
-                                                            });
-                                                        </script>
 
                                                     </div>
                                                     <div class="elementor-element elementor-element-41ea943d elementor-invisible elementor-widget elementor-widget-shortcode" data-id="41ea943d" data-element_type="widget" data-settings='{"_animation":"fadeIn","_animation_delay":400,"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="shortcode.default">
@@ -492,13 +486,10 @@
                                                                     <?php
                                                                     if (isset($thongbao) && ($thongbao != "")) { ?>
 
-                                                                        <div class="w-2/5 h-2/3 fixed inset-y-60 inset-x-1/3 rounded-lg shadow-2xl border-solid z-10 bg-white text-center" style="margin-left:-73px;">
+                                                                        <div class="w-2/5 h-1/2 fixed inset-y-60 inset-x-1/3 rounded-lg shadow-2xl border-solid z-10 bg-white text-center" style="margin-left:-73px;" id="popup_booking">
                                                                             <i class="text-green-600 py-5  text-5xl text-center fa-sharp fa-solid fa-circle-check"></i>
                                                                             <p class="text-green-600 font-bold text-5xl text-center">
                                                                                 <?php if (isset($thongbao) && ($thongbao != "")) echo $thongbao; ?>
-                                                                            </p>
-                                                                            <p class="text-red text-3xl text-center" style="margin-top:-15px;">
-                                                                                <?php if (isset($date2) && ($date2 != "")) echo '<h3 style="font-weight:700;color:red;font-size:large;">Hạn thanh toán:  ' . $date2 . ' </h3>'; ?>
                                                                             </p>
                                                                             <p class="text-black text-xl text-center" style="margin-top:-30px;">
                                                                                 <?php if (isset($datecount) && ($datecount != "")) echo $datecount; ?>
@@ -522,10 +513,22 @@
                                                                                 <?php if (isset($ngaytra) && ($ngaytra != "")) echo '<h3 style="font-weight:700;">Ngày trả:  ' . $ngaytra . ' </h3>'; ?>
                                                                             </p>
 
-                                                                            <form action="./index.php?act=thanhtoan&idp=<?php echo $room['id_phong']; ?>" method="post">
+                                                                            <p class="text-black text-2xl text-center">
+                                                                                <h3 style="font-weight:700;">Chuyển khoản ngân hàng Vietinbank</h3>
+                                                                            </p>
+
+                                                                            <p class="text-black text-2xl text-center" style="margin-top:-25px;">
+                                                                                <h3 style="font-weight:700;">106868143615</h3>
+                                                                            </p>
+
+                                                                            <p class="text-black text-2xl text-center" style="margin-top:-26px;">
+                                                                                <h3 style="font-weight:700;">Chủ TK: NGUYEN HUU NGHIA</h3>
+                                                                            </p>
+
+                                                                            <form action="" method="post">
                                                                                 <div class="form4" style="text-align:center;margin-top:20px;">
                                                                                     <p class="mphb-reserve-btn-wrapper">
-                                                                                        <input class="mphb-reserve-btn button" type="submit" name="thanhtoan" id="thanhtoan" value="--Thanh Toán Qua VNPAY---" />
+                                                                                        <input class="mphb-reserve-btn button" type="submit" name="thanhtoan" id="thanhtoan" value="--Thanh Toán Hoàn Tất--" />
                                                                                     </p>
                                                                                 </div>
                                                                             </form>
@@ -592,7 +595,6 @@
                                                                         <script>
                                                                             function XACNHAN(datphong) {
                                                                                 if (confirm("Bạn muốn đặt phòng" + "?")) {
-                                                                                window.location.href = '#booking';
                                                                             }
                                                                             }
                                                                         </script>
