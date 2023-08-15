@@ -565,22 +565,21 @@
                                                                             </p>
 
                                                                             <p class="mphb-adults-wrapper mphb-capacity-wrapper">
-                                                                                <label for="mphb_adults-6061a3921343a"> Người lớn </label>
+                                                                                <label for="mphb_adults-6061a3921343a"> Số khách </label>
                                                                                 <br />
                                                                                 <select id="mphb_adults-6061a3921343a" name="sokhach">
                                                                                     <option value="1">1</option>
                                                                                     <option value="2">2</option>
                                                                                     <option value="3">3</option>
+                                                                                    <option value="3">4</option>
 
                                                                                 </select>
                                                                             </p>
                                                                             <p class="mphb-children-wrapper mphb-capacity-wrapper">
-                                                                                <label for="mphb_children-6061a3921343a"> Trẻ em </label>
+                                                                                <label for="mphb_children-6061a3921343a"> Số khách tối đa </label>
                                                                                 <br />
                                                                                 <select id="mphb_children-6061a3921343a" name="mphb_children">
-                                                                                    <option value="0">0</option>
-                                                                                    <option value="1">1</option>
-                                                                                    <option value="2">2</option>
+                                                                                    <option value="<?php echo $room['sokhach'] ?>"><?php echo $room['sokhach'] ?></option>
                                                                                 </select>
                                                                             </p>
 
@@ -592,7 +591,9 @@
                                                                         </form>
                                                                         <script>
                                                                             function XACNHAN(datphong) {
-                                                                                return confirm("Bạn muốn đặt phòng" + "?");
+                                                                                if (confirm("Bạn muốn đặt phòng" + "?")) {
+                                                                                window.location.href = '#booking';
+                                                                            }
                                                                             }
                                                                         </script>
 

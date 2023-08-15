@@ -79,40 +79,7 @@
                                     </div>
                                 </div>
                             </section>
-                            <!-- section loai phong -->
-
-                            <section class="elementor-section elementor-top-section elementor-element elementor-element-e133c10 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e133c10" data-element_type="section" data-settings='{"stretch_section":"section-stretched","background_background":"classic","hoteller_ext_is_background_parallax":"false","hoteller_ext_is_background_on_scroll":"false"}'>
-                                <div class="elementor-container elementor-column-gap-default">
-
-
-                                    <div class="elementor-row">
-
-
-                                        <div class="elementor-column-wrap elementor-element-populated">
-
-                                            <div class="elementor-widget-wrap">
-                                                <div class="elementor-element elementor-element-1974dbe elementor-invisible elementor-widget elementor-widget-heading" data-id="1974dbe" data-element_type="widget" data-settings='{"_animation":"fadeInLeft","hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="heading.default">
-                                                    <div class="elementor-widget-container">
-                                                        <?php foreach ($listlp as $loaiphong) {
-                                                            extract($loaiphong);
-                                                            $linklp = "index.php?act=ourrooms&idlp=" . $id_loaiphong;
-                                                            echo '
-                                                                 
-                                                                            <h3 class="elementor-heading-title elementor-size-default"><a href="' . $linklp . '">' . $name_loaiphong . '</a></h3>
-                                                                        ';
-                                                        } ?>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-
-
-
-                                    </div>
-                                </div>
-                            </section>
+                        
                             <section class="grid grid-cols-4 my-4 gap-2">
                                 <?php foreach ($listpcungloai as $item) { ?>
                                     <div class="shadow-lg p-2 ">
@@ -129,6 +96,14 @@
                                                 <div class=" text-2xl flex">
 
                                                     <p class="font-bold text-3xl text-amber-600 "><?php echo number_format($item['price']) ?> vnd/night</p>
+
+                                                </div>
+                                            </a>
+                                            <a href="index.php?act=room&id=<?php echo $item['id_phong'] ?>">
+
+                                                <div class=" text-2xl flex">
+
+                                                    <p class="font-bold text-3xl text-amber-600 ">Tối đa <?php echo number_format($item['sokhach']) ?> người</p>
 
                                                 </div>
                                             </a>
@@ -304,7 +279,6 @@ data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"fal
                 </div>
             </div>
         </div>
-        <!-- End main content -->
     </div>
     <br class="clear" />
 </div>

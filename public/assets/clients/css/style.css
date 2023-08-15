@@ -7937,7 +7937,7 @@ select.mphb_sc_checkout-service-adults
 .mphb_sc_search-form input.mphb-datepick,
 .mphb-booking-form input.mphb-datepick
 {
-  width: 200px;
+  width: 180px;
   height: 20px;
   border-radius: 10px;
   border: 14px solid #fff;
