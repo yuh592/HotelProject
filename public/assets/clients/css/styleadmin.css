@@ -3,8 +3,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
+    font-family: 'Wix Madefor Text', sans-serif;
+    font-weight: 500;
 }
 body{
     position: relative;
@@ -182,7 +182,7 @@ body{
 .formcontent input[type="text"],
 .formcontent input[type="password"]{
     width: 100%;
-    border: 1px solid #FFCACA;
+    border: 1px solid #2a2f8c;
     padding: 10px;
     border-radius: 5px;
 }
@@ -196,14 +196,14 @@ body{
     border-radius: 5px;
     padding: 5px 10px;
     background-color: #ffffff;
-    border: 1px solid #FFCACA;
+    border: 1px solid #2a2f8c;
 }
 .formtk input[type="submit"]:hover,
 .formcontent input[type="submit"]:hover,
 .formcontent input[type="reset"]:hover,
 .formcontent input[type="button"]:hover{
-    background-color: #372948;
-    color: #FFCACA;
+    background-color: #2a2f8c;
+    color: #FFF;
 }
 .formtk li a{
     color: #00FFFF;
@@ -261,9 +261,9 @@ body{
 }
 /* admin*/
 .headeradmin{
-    background-color: #251B37;
-    border: 1px solid #FFCACA;
-    color: #FFCACA;
+    background: #2a2f8c;
+    border: 1px solid #2a2f8c;
+    color: #FFF;
     border-radius: 5px;
     padding: 0px 20px;
     width: 70%;
@@ -273,7 +273,7 @@ body{
 }
 .formtittle{
     background-color: #FFECEF;
-    border: 1px solid #FFCACA;
+    border: 1px solid #2a2f8c;
     color: #372948;
     border-radius: 5px;
     padding: 10px 20px;
@@ -288,22 +288,26 @@ body{
 .formdsloaihang table th:nth-child(1){
     width: 10%;
     padding: 20px;
-    background-color: #FFCACA;
+    background-color: #2a2f8c;
+    color: #FFF;
 }
 .formdsloaihang table th:nth-child(2){
     width: 30%;
-    background-color: #FFCACA;
+    background-color: #2a2f8c;
+    color: #FFF;
 }
 .formdsloaihang table th:nth-child(3){
     width: 40%;
-    background-color: #FFCACA;
+    background-color: #2a2f8c;
+    color: #FFF;
 }
 .formdsloaihang table th:nth-child(4){
     width: 20%;
-    background-color: #FFCACA;
+    background-color: #2a2f8c;
+    color: #FFF;
 }
 .formdsloaihang table td{
-    border: 1px solid #FFCACA;
+    border: 1px solid #2a2f8c;
     padding: 10px 20px;
 }
 .content1{
@@ -566,10 +570,10 @@ table tr th{
     position: fixed;
     width: 250px;
     height: 100%;
-    background-color: #251B37;
+    background: -webkit-linear-gradient(left, #4058b9, #2a2f8c);
     display: flex;
     align-items: center;
-    border-right: 1px solid #372948;
+    border-right: 1px solid #2a2f8c;
     z-index: 1000;
     /* transition: ease-in-out 0.5s; */
 }
@@ -595,7 +599,7 @@ table tr th{
     transition: linear 0.2s;
 }
 .content_menu nav ul li a:hover{
-    background: #FFCACA;
+    background: #FFF;
     color: #251B37;
 }
 .content_menu nav ul li a:hover svg{
@@ -632,7 +636,7 @@ nav .toggle_menu{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #251B37;
+    background-color: #2a2f8c;
     border-radius: 0 10px 10px 0;
     cursor: pointer;
     transition: linear 0.2s;
@@ -641,10 +645,4 @@ nav .toggle_menu svg{
     color: #f2f2f2;
     font-size: 1.5em;
     transition: linear 0.2s;
-}
-nav .toggle_menu:hover{
-    background: #FFCACA;
-}
-.content_menu .toggle_menu:hover svg{
-    color: #251B37;
 }

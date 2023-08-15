@@ -129,6 +129,10 @@ if ((isset($_GET['act'])) && ($_GET['act'] != "")) {
                     }
                     if ($check == false) {
                         $thongtin = "Đặt Phòng Thất Bại.Vui lòng đặt ngày khác!!!";
+                        echo '<script>';
+                        echo 'window.location.href = "#booking";';
+                        echo '</script>';
+                        
                     } else if ($check == true) {
                         $id_user = $_SESSION['user']['id_user'];
                         $sokhach = $_POST['sokhach'];
@@ -146,6 +150,9 @@ if ((isset($_GET['act'])) && ($_GET['act'] != "")) {
                         $date2 = date('d/m/Y h:i:s a', time());
                         insert_datphong($id_phong, $id_user, $sokhach, $ngayden, $ngaytra, $tongtien, $giaodich);
                         $thongbao = "Đặt Phòng Thành Công.Vui lòng thanh toán!!!";
+                        echo '<script>';
+                        echo 'window.location.href = "#booking";';
+                        echo '</script>';
                     }
                 }
             }
@@ -159,10 +166,7 @@ if ((isset($_GET['act'])) && ($_GET['act'] != "")) {
             $tongtien = $dp['tongtien'];
             echo '<pre>';
             var_dump($_SESSION['idorder']);
-            if (isset($_POST['thanhtoan']) && ($_POST['thanhtoan'])) {
-                header("location: http://localhost/HotelProject/vnpay_php/index.php?idorder=$idorder");
-            }
-            include "../../views/room.php";
+            include "../../views/thanhtoan.php";
             break;
             // case 'hoadon':
 
