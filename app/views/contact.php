@@ -22,7 +22,7 @@
                                                                             <div class="slide-content">
                                                                                 <div class="caption">
                                                                                     <div class="title">
-                                                                                        <h2>Sự lựa chọn tuyệt vời cho một kỳ nghỉ thư giãn cho gia đình có trẻ em hoặc nhóm bạn</h2>
+                                                                                        <h2>Sự lựa chọn tuyệt vời cho một kỳ nghỉ </h2>
                                                                                     </div>
                                                                                     <div class="text"></div>
                                                                                 </div>
@@ -35,7 +35,7 @@
                                                                             <div class="slide-content">
                                                                                 <div class="caption">
                                                                                     <div class="title">
-                                                                                        <h2>Tất cả các lựa chọn chỗ ở của chúng tôi bao gồm các tiện nghi sang trọng như máy pha trà, cà phê và minibar</h2>
+                                                                                        <h2>Tiện nghi đầy đủ thoái mái như ở nhà</h2>
                                                                                     </div>
                                                                                     <div class="text"></div>
                                                                                 </div>
@@ -48,7 +48,7 @@
                                                                             <div class="slide-content">
                                                                                 <div class="caption">
                                                                                     <div class="title">
-                                                                                        <h2>Sự tồn tại của nhà hàng phụ thuộc vào việc lan truyền thông tin</h2>
+                                                                                        <h2>Sự hài lòng của khách hàng là mục tiêu của chúng tôi</h2>
                                                                                     </div>
                                                                                     <div class="text"></div>
                                                                                 </div>
@@ -249,7 +249,7 @@
                                                         <div class="elementor-widget-container">
                                                             <h2 class="elementor-heading-title elementor-size-default">
                                                             Khám phá và trải nghiệm<br />
-                                                            những nơi nổi tiếng gần khách sạn của chúng tôi
+                                                            những điểm đến nổi tiếng gần khách sạn của chúng tôi
                                                             </h2>
                                                         </div>
                                                     </div>

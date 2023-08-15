@@ -39,18 +39,18 @@
                                                                                         <div class="slide is-active">
                                                                                             <div class="slide-content">
                                                                                                 <div class="caption">
-                                                                                                    <div class="title"><h2>Ký ức giống như súp mulligatawny trong một nhà hàng rẻ tiền. Tốt nhất là không khuấy chúng</h2></div>
+                                                                                                    <div class="title"><h2>Ẩm thực biển chuẩn châu Âu</h2></div>
                                                                                                     <div class="text"></div>
                                                                                                 </div>
                                                                                             </div>
                                                                                             <div class="image-container">
-                                                                                                <img src="../../../public/upload/chef-presenting-food-to-customers-in-the-P8DB3B8-1.jpg" alt="" class="image" />
+                                                                                                <img src="../../../public/upload/seafood.jpg" alt="" class="image" />
                                                                                             </div>
                                                                                         </div>
                                                                                         <div class="slide">
                                                                                             <div class="slide-content">
                                                                                                 <div class="caption">
-                                                                                                    <div class="title"><h2>Sinh kế của nhà hàng phụ thuộc vào việc quảng bá</h2></div>
+                                                                                                    <div class="title"><h2>Sự hài lòng của khách hàng là mục tiêu của chúng tôi</h2></div>
                                                                                                     <div class="text"></div>
                                                                                                 </div>
                                                                                             </div>
@@ -61,7 +61,7 @@
                                                                                         <div class="slide">
                                                                                             <div class="slide-content">
                                                                                                 <div class="caption">
-                                                                                                    <div class="title"><h2>Tôi chỉ có nhà hàng. Nếu tôi làm những việc khác, nó chỉ liên quan đến nhà hàng</h2></div>
+                                                                                                    <div class="title"><h2>Ẩm thực phong phú đa dạng</h2></div>
                                                                                                     <div class="text"></div>
                                                                                                 </div>
                                                                                             </div>
@@ -186,7 +186,7 @@
                                                                             <div class="elementor-button-wrapper">
                                                                                 <a href="https://themes.themegoods.com/hoteller/sites/about-us" class="elementor-button-link elementor-button elementor-size-sm" role="button">
                                                                                     <span class="elementor-button-content-wrapper">
-                                                                                        <span class="elementor-button-text">View more</span>
+                                                                                        <span class="elementor-button-text">Xem thêm</span>
                                                                                     </span>
                                                                                 </a>
                                                                             </div>
@@ -252,7 +252,7 @@
                                                                         data-widget_type="heading.default"
                                                                     >
                                                                         <div class="elementor-widget-container">
-                                                                            <h2 class="elementor-heading-title elementor-size-default">Giao tiếp bằng hương vị</h2>
+                                                                            <h2 class="elementor-heading-title elementor-size-default">Đánh thức vị giác của bạn</h2>
                                                                         </div>
                                                                     </div>
                                                                     <div
@@ -485,7 +485,7 @@ Không gian của chúng tôi được thiết kế để kết nối bạn vớ
                                                                                 <div class="square2" data-image="../../../public/upload/1551336909_5c7785cd1a9e7-thumb.jpg">
                                                                                     <div class="square-container2">
                                                                                         <div class="align-center"></div>
-                                                                                        <h2>Ưu đãi giảm giá 10%, đối với những đặt chỗ được thực hiện ít nhất 3 ngày trước</h2>
+                                                                                        <h2>Ưu đãi giảm giá 10%, đối với khách đặt trước chỗ ít nhất 3 ngày </h2>
                                                                                         <a class="button" href="index.html" class="boxshadow button">View Offer</a>
                                                                                     </div>
                                                                                     <div class="flip-overlay"></div>
@@ -515,7 +515,7 @@ Không gian của chúng tôi được thiết kế để kết nối bạn vớ
                                                                             <div class="tg_flip_box_wrapper square-flip">
                                                                                 <div class="square" data-image="../../../public/upload/St-Moritz-Guest-Room.jpg">
                                                                                     <div class="square-container">
-                                                                                        <h2>15% cho đặt trước phòng không hoàn lại.</h2>
+                                                                                        <h2>15% cho khách đặt trước phòng không hoàn lại.</h2>
                                                                                     </div>
                                                                                     <div class="flip-overlay"></div>
                                                                                 </div>
