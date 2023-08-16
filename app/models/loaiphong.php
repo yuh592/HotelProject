@@ -39,4 +39,61 @@
         $sql="update loaiphong set name_loaiphong='".$tenloaiphong."' where id_loaiphong=".$id;
         pdo_execute($sql);
     }
+
+    //pagination
+    function count_loaiphong() {
+        $sql = "SELECT COUNT(*) AS total FROM loaiphong";
+        $countAcc = pdo_query_one($sql);
+        return $countAcc['total'];
+    }
+    
+    function load_loaiphong_for_page($startFrom, $accountsPerPage) {
+        $sql = "SELECT * FROM loaiphong";
+        $sql .= " LIMIT $startFrom, $accountsPerPage";
+        $listlp = pdo_query($sql);
+        return $listlp;
+        }
+    
+        //thay act = page khac
+    function display_loaiphong_pagination($currentPage, $totalPages) {
+            $visiblePages = 5;
+        
+            $startPage = max(1, $currentPage - floor($visiblePages / 2));
+            $endPage = min($totalPages, $startPage + $visiblePages - 1);
+        
+            if ($startPage > 1) {
+                echo '<a href="index.php?act=listlp&page=1">Trang đầu</a>';
+            }
+        
+            if ($startPage > 2) {
+                echo '<span>...</span>';
+            }
+        
+            for ($i = $startPage; $i <= $endPage; $i++) {
+                echo '<a href="index.php?act=listlp&page=' . $i . '">' . $i . '</a>';
+            }
+        
+            if ($endPage < $totalPages - 1) {
+                echo '<span>...</span>';
+            }
+        
+            if ($endPage < $totalPages) {
+                echo '<a href="index.php?act=listlp&page=' . $totalPages . '">Trang cuối</a>';
+            }
+    }
+
+    function setup__loaiphong_pagination($accountsPerPage) {
+        $currentPage = isset($_GET['page']) ? intval($_GET['page']) : 1;
+        $startFrom = ($currentPage - 1) * $accountsPerPage;
+        $listlp = load_loaiphong_for_page($startFrom, $accountsPerPage);
+        $totalCount = count_loaiphong();
+        $totalPages = ceil($totalCount / $accountsPerPage);
+        
+        return array(
+            'currentPage' => $currentPage,
+            'listlp' => $listlp,
+            'totalCount' => $totalCount,
+            'totalPages' => $totalPages
+        );
+    }
 ?>
