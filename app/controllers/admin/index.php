@@ -221,22 +221,27 @@ if (isset($_GET['act'])) {
             include "../../views/admin/taikhoan/list.php";
             break;
         case 'dstk':
-                $listtaikhoan = loadall_taikhoan("", 0);
-                // Get the total number of accounts
-                $totalAccounts = count_all_taikhoan();
+                // Set the number of accounts per page
+                $accountsPerPage = 5; // Adjust this value as needed
             
-                // Pagination variables
-                $accountsPerPage = 5;
-                $totalPages = ceil($totalAccounts / $accountsPerPage);
+                // Get the current page from the query parameter
                 $currentPage = isset($_GET['page']) ? intval($_GET['page']) : 1;
+            
+                // Calculate the start index for the accounts to display
                 $startFrom = ($currentPage - 1) * $accountsPerPage;
             
-                // Load accounts for the current page
+                // Load the list of user accounts for the current page
                 $listtaikhoan = load_accounts_for_page($startFrom, $accountsPerPage);
             
+                // Get the total count of user accounts for pagination
+                $totalCount = count_taikhoan();
+            
+                // Calculate the total number of pages
+                $totalPages = ceil($totalCount / $accountsPerPage);
+            
+                // Include the view file for the list of user accounts with pagination
                 include "../../views/admin/taikhoan/list.php";
                 break;
-            
         case 'listhd':
             if (isset($_POST['capnhat']) && ($_POST['capnhat'])) {
                 $giaodich = $_POST['giaodich'];

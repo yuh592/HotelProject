@@ -44,12 +44,12 @@
                 </table>
             </div>
             <div class="pagination">
-            <?php
-            for ($i = 1; $i <= $totalPages; $i++) {
-                echo '<a href="index.php?act=dskh&page=' . $i . '">' . $i . '</a>';
-            }
-            ?>
-            </div>
+    <?php echo "$countAcc";
+    for ($i = 1; $i <= $totalPages; $i++) {
+        echo '<a href="index.php?act=dstk&page=' . $i . '">' . $i . '</a>';
+    }
+    ?>
+</div>
             <div class="row mb10">
                 <input type="button" id="btn1" value="Chọn tất cả">
                 <input type="button" id="btn2" value="Bỏ chọn tất cả">
