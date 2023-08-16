@@ -51,7 +51,7 @@
                                                                                         <div class="slide">
                                                                                             <div class="slide-content">
                                                                                                 <div class="caption">
-                                                                                                    <div class="title"><h2>Mong đợi sự riêng tư trong một bộ khách sạn lớn với khu vực sinh hoạt riêng biệt và tầm nhìn đại dương</h2></div>
+                                                                                                    <div class="title"><h2>Sự tồn tại của nhà hàng phụ thuộc vào việc lan truyền thông tin</h2></div>
                                                                                                     <div class="text"></div>
                                                                                                 </div>
                                                                                             </div>
@@ -62,7 +62,7 @@
                                                                                         <div class="slide">
                                                                                             <div class="slide-content">
                                                                                                 <div class="caption">
-                                                                                                    <div class="title"><h2>Sẵn sàng cho một ngày mới tuyệt vời tại Đà Nẵng</h2></div>
+                                                                                                    <div class="title"><h2>Lựa chọn tuyệt vời cho một kỳ nghỉ thư giãn cho gia đình có trẻ em hoặc một nhóm bạn</h2></div>
                                                                                                     <div class="text"></div>
                                                                                                 </div>
                                                                                             </div>
