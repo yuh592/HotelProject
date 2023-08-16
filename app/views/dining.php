@@ -437,13 +437,13 @@ Không gian của chúng tôi được thiết kế để kết nối bạn vớ
                                                                     >
                                                                         <div class="elementor-widget-container">
                                                                             <div class="tg_flip_box_wrapper square-flip">
-                                                                                <div class="square" data-image="../../../public/upload/St-Moritz-Guest-Room.jpg">
+                                                                                <div class="square" data-image="../../../public/upload/uudai1.png">
                                                                                     <div class="square-container">
                                                                                         <h2>Bao gồm bữa sáng miễn phí</h2>
                                                                                     </div>
                                                                                     <div class="flip-overlay"></div>
                                                                                 </div>
-                                                                                <div class="square2" data-image="../../../public/upload/1551336909_5c7785cd1a9e7-thumb.jpg">
+                                                                                <div class="square2" data-image="../../../public/upload/phong3.jpg">
                                                                                     <div class="square-container2">
                                                                                         <div class="align-center"></div>
                                                                                         <h2>Bữa sáng đi kèm khi đặt phòng luxury</h2>
@@ -474,13 +474,13 @@ Không gian của chúng tôi được thiết kế để kết nối bạn vớ
                                                                     >
                                                                         <div class="elementor-widget-container">
                                                                             <div class="tg_flip_box_wrapper square-flip">
-                                                                                <div class="square" data-image="../../../public/upload/St-Moritz-Guest-Room.jpg">
+                                                                                <div class="square" data-image="../../../public/upload/phong4.jpg">
                                                                                     <div class="square-container">
                                                                                         <h2>Giảm 10% khi đặt trước</h2>
                                                                                     </div>
                                                                                     <div class="flip-overlay"></div>
                                                                                 </div>
-                                                                                <div class="square2" data-image="../../../public/upload/1551336909_5c7785cd1a9e7-thumb.jpg">
+                                                                                <div class="square2" data-image="../../../public/upload/uudai2.png">
                                                                                     <div class="square-container2">
                                                                                         <div class="align-center"></div>
                                                                                         <h2>Ưu đãi giảm giá 10%, đối với khách đặt trước chỗ ít nhất 3 ngày </h2>
@@ -511,13 +511,13 @@ Không gian của chúng tôi được thiết kế để kết nối bạn vớ
                                                                     >
                                                                         <div class="elementor-widget-container">
                                                                             <div class="tg_flip_box_wrapper square-flip">
-                                                                                <div class="square" data-image="../../../public/upload/St-Moritz-Guest-Room.jpg">
+                                                                                <div class="square" data-image="../../../public/upload/uudai31.png">
                                                                                     <div class="square-container">
                                                                                         <h2>15% cho khách đặt trước phòng không hoàn lại.</h2>
                                                                                     </div>
                                                                                     <div class="flip-overlay"></div>
                                                                                 </div>
-                                                                                <div class="square2" data-image="../../../public/upload/1551336909_5c7785cd1a9e7-thumb.jpg">
+                                                                                <div class="square2" data-image="../../../public/upload/uudai32.png">
                                                                                     <div class="square-container2">
                                                                                         <div class="align-center"></div>
                                                                                         <h2>Ưu đãi giảm giá 15%, khi bạn đặt chỗ trước ít nhất 15 ngày.</h2>
