@@ -116,8 +116,8 @@
                                                     <div class="elementor-element elementor-element-5d213a7d elementor-invisible elementor-widget elementor-widget-heading" data-id="5d213a7d" data-element_type="widget" data-settings='{"_animation":"fadeInUp","hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="heading.default">
                                                         <div class="elementor-widget-container">
                                                             <h2 class="elementor-heading-title elementor-size-default">
-                                                                dịch vụ của chúng tôi và<br />
-                                                                bãi biển Non Nước
+                                                                Tận hưởng dịch vụ đỉnh cao<br />
+                                                                Đẳng cấp thế giới
                                                             </h2>
                                                         </div>
                                                     </div>

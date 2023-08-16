@@ -157,7 +157,7 @@
                                                                         data-widget_type="heading.default"
                                                                     >
                                                                         <div class="elementor-widget-container">
-                                                                            <h2 class="elementor-heading-title elementor-size-default">Nơi hương vị làm bạn say mê</h2>
+                                                                            <h2 class="elementor-heading-title elementor-size-default">Đánh thức vị giác</h2>
                                                                         </div>
                                                                     </div>
                                                                     <div
@@ -251,9 +251,7 @@
                                                                         data-settings='{"_animation":"fadeInUp","hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
                                                                         data-widget_type="heading.default"
                                                                     >
-                                                                        <div class="elementor-widget-container">
-                                                                            <h2 class="elementor-heading-title elementor-size-default">Đánh thức vị giác của bạn</h2>
-                                                                        </div>
+                                                                       
                                                                     </div>
                                                                     <div
                                                                         class="elementor-element elementor-element-cadfc73 elementor-invisible elementor-widget elementor-widget-heading"

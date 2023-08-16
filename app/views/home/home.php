@@ -229,30 +229,27 @@
                                         <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6056877" data-id="6056877" data-element_type="column" data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'>
                                             <div class="elementor-column-wrap elementor-element-populated">
                                                 <div class="elementor-widget-wrap">
-                                                    <div class="elementor-element elementor-element-006eb92 elementor-invisible elementor-widget elementor-widget-heading" data-id="006eb92" data-element_type="widget" data-settings='{"_animation":"fadeInUp","hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="heading.default">
-                                                        <div class="elementor-widget-container">
-                                                            <span class="elementor-heading-title elementor-size-default">Urban & Unique</span>
-                                                        </div>
-                                                    </div>
+                                                    
                                                     <div class="elementor-element elementor-element-c5b8fc1 elementor-invisible elementor-widget elementor-widget-heading" data-id="c5b8fc1" data-element_type="widget" data-settings='{"_animation":"fadeInUp","_animation_delay":200,"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="heading.default">
                                                         <div class="elementor-widget-container">
                                                             <h2 class="elementor-heading-title elementor-size-default">
-                                                                Các dịch vụ chữ ký và<br />
-                                                                kỳ quan Praha
+                                                                Danang Marriott<br />
+                                                                Ốc Đảo Nhiệt Đới bên bờ biển Đà Nẵng 
                                                             </h2>
                                                         </div>
                                                     </div>
                                                     <div class="elementor-element elementor-element-9916709 elementor-invisible elementor-widget elementor-widget-heading" data-id="9916709" data-element_type="widget" data-settings='{"_animation":"fadeInUp","_animation_delay":400,"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="heading.default">
                                                         <div class="elementor-widget-container">
-                                                            <span class="elementor-heading-title elementor-size-default">Chỗ ở của chúng tôi là tuyệt vời cho một chuyến đi với bạn bè, gia đình hoặc một cặp vợ chồng</span>
+                                                            <span class="elementor-heading-title elementor-size-default">Danang Marriott kết hợp kiến trúc Chăm truyền thống với sự ảnh hưởng của Pháp- Đông Dương, nằm bên bãi biển Non Nước - được tạp chí FORBES công nhận là một trong những bãi biển đẹp nhất thế giới. </span>
                                                         </div>
                                                     </div>
                                                     <div class="elementor-element elementor-element-bb8a693 elementor-invisible elementor-widget elementor-widget-text-editor" data-id="bb8a693" data-element_type="widget" data-settings='{"_animation":"fadeInUp","_animation_delay":600,"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="text-editor.default">
                                                         <div class="elementor-widget-container">
                                                             <div class="elementor-text-editor elementor-clearfix">
                                                                 <p class="p1">
-                                                                    Khái niệm và dịch vụ của các khách sạn sang trọng tốt nhất ở Asturias trong các phòng Urban Double và Unique Junior Suite tinh vi của chúng tôi, với khả năng
-                                                                    tận hưởng sân hiên được trang bị bàn ghế trong Căn hộ Gác xép Đô thị Đôi và Căn hộ Gác mái Nhỏ Độc đáo của chúng tôi.
+Tại Danang Marriott, tất cả khoảnh khắc trên hành trình trải nghiệm đều trong tầm tay bạn, đó có thể là một sớm mai ngắm bình minh tỏa sáng mặt biển, hay đắm chìm vào ánh hoàng hôn rực rỡ từ Ngũ Hành Sơn huyền thoại, bình yên đi giữa phố cổ Hội An trầm mặc rêu phong, khám phá cuộc sống về đêm sôi nổi ở thành phố Đà Nẵng, thỏa sức thưởng thức ẩm thực đa phong cách ngay tại khu nghỉ dưỡng hay đơn thuần chỉ là chia sẻ và trân trọng những phút giây bình yên quý giá bên người thân.<br>
+Chúng tôi luôn cháo đón bạn tại Danang Marriott.
+
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -260,13 +257,13 @@
                                                     <div class="elementor-element elementor-element-512bfa1 elementor-invisible elementor-widget elementor-widget-image" data-id="512bfa1" data-element_type="widget" data-settings='{"_animation":"fadeInUp","_animation_delay":800,"hoteller_image_is_animation":"false","hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="image.default">
                                                         <div class="elementor-widget-container">
                                                             <div class="elementor-image">
-                                                                <img width="432" height="124" src="../../../public/upload/ZX75-5.jpg" class="attachment-full size-full" alt="" loading="lazy" />
+                                                                <img width="432" height="124" src="../../../public/upload/sanh.jpg" class="attachment-full size-full" alt="" loading="lazy" />
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="elementor-element elementor-element-33ec55d elementor-invisible elementor-widget elementor-widget-heading" data-id="33ec55d" data-element_type="widget" data-settings='{"_animation":"fadeInUp","_animation_delay":1000,"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="heading.default">
                                                         <div class="elementor-widget-container">
-                                                            <span class="elementor-heading-title elementor-size-default">Quản lý khách sạn</span>
+                                                            <span class="elementor-heading-title elementor-size-default">Welcome to Danang Marriott</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -294,7 +291,7 @@
                                                                             <li class="c-mouse-vertical-carousel__list-item js-carousel-list-item" data-item-id="0">
                                                                                 <a href="deluxe-room.html">
                                                                                     <p class="c-mouse-vertical-carousel__eyebrow">
-                                                                                        from 1.500.000/đêm
+                                                                                        từ 1.500.000/đêm
                                                                                     </p>
                                                                                     <p class="c-mouse-vertical-carousel__title">
                                                                                         Superior Room
@@ -304,7 +301,7 @@
                                                                             <li class="c-mouse-vertical-carousel__list-item js-carousel-list-item" data-item-id="1">
                                                                                 <a href="deluxe-room.html">
                                                                                     <p class="c-mouse-vertical-carousel__eyebrow">
-                                                                                        from 1.800.000/đêm
+                                                                                        từ 1.800.000/đêm
                                                                                     </p>
                                                                                     <p class="c-mouse-vertical-carousel__title">
                                                                                         Deluxe Room
@@ -314,7 +311,7 @@
                                                                             <li class="c-mouse-vertical-carousel__list-item js-carousel-list-item" data-item-id="2">
                                                                                 <a href="deluxe-room.html">
                                                                                     <p class="c-mouse-vertical-carousel__eyebrow">
-                                                                                        from 2.000.000/đêm
+                                                                                        từ 2.000.000/đêm
                                                                                     </p>
                                                                                     <p class="c-mouse-vertical-carousel__title">
                                                                                         Signature Room
@@ -324,7 +321,7 @@
                                                                             <li class="c-mouse-vertical-carousel__list-item js-carousel-list-item" data-item-id="3">
                                                                                 <a href="deluxe-room.html">
                                                                                     <p class="c-mouse-vertical-carousel__eyebrow">
-                                                                                        from 3.000.000/đêm
+                                                                                        từ 3.000.000/đêm
                                                                                     </p>
                                                                                     <p class="c-mouse-vertical-carousel__title">
                                                                                         Luxury Suite Room
@@ -332,10 +329,10 @@
                                                                                 </a>
                                                                             </li>
                                                                         </ul>
-                                                                        <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url(../../../public/upload/One-Bedroom-Alpine-Suite-Lake-View.jpg);"></i>
-                                                                        <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url(../../../public/upload/149368628.jpg);"></i>
-                                                                        <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url(../../../public/upload/room-standard-01.jpg);"></i>
-                                                                        <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url(../../../public/upload/St-Moritz-Guest-Room.jpg);"></i>
+                                                                        <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url(../../../public/upload/phong1.jpg);"></i>
+                                                                        <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url(../../../public/upload/phong2.jpg);"></i>
+                                                                        <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url(../../../public/upload/phong3.jpg);"></i>
+                                                                        <i class="c-mouse-vertical-carousel__bg-img js-carousel-bg-img" style="background-image: url(../../../public/upload/phong4.jpg);"></i>
                                                                         <i class="c-gradient-overlay"></i>
                                                                     </div>
                                                                 </header>
@@ -357,7 +354,7 @@
                                                     <div class="elementor-element elementor-element-a807720 elementor-widget elementor-widget-image" data-id="a807720" data-element_type="widget" data-settings='{"hoteller_image_is_animation":"false","hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="image.default">
                                                         <div class="elementor-widget-container">
                                                             <div class="elementor-image">
-                                                                <img width="960" height="1440" src="../../../public/upload/mature-businessman-with-smartphone-in-a-hotel-P8JDE9P.jpg" class="attachment-full size-full" alt="" loading="lazy" />
+                                                                <img width="960" height="1440" src="../../../public/upload/ninh.png" class="attachment-full size-full" alt="" loading="lazy" />
                                                             </div>
                                                         </div>
                                                     </div>
@@ -375,8 +372,8 @@
                                                     <div class="elementor-element elementor-element-8deffd0 elementor-invisible elementor-widget elementor-widget-heading" data-id="8deffd0" data-element_type="widget" data-settings='{"_animation":"fadeInUp","hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="heading.default">
                                                         <div class="elementor-widget-container">
                                                             <h2 class="elementor-heading-title elementor-size-default">
-                                                                Dịch vụ của chúng tôi và<br />
-                                                                kỳ quan Praha
+                                                                Tận hưởng dịch vụ<br /> 
+                                                                đỉnh cao<br /> Đẳng cấp thế giới
                                                             </h2>
                                                         </div>
                                                     </div>
@@ -384,8 +381,7 @@
                                                         <div class="elementor-widget-container">
                                                             <div class="elementor-text-editor elementor-clearfix">
                                                                 <p>
-                                                                    Chi tiết xếp li co giãn kết hợp axetat sang trọng được thêu tinh tế trong suốt màu xanh organza. Chi tiết da phối viền vai màu tương phản tuyệt đẹp
-                                                                    bóng làm việc peplum. Nút tuyên bố che đậy điều chỉnh túi vá ve áo lâu năm cổ áo vạt túi ngực topline khâu áo khoác cắt xén.
+                                                                    Một ốc đảo yên bình giữa lòng thành phố, Danang Marriott mang đến đầy đủ tiện nghi và dịch vụ phù hợp với mọi lứa tuổi để tạm gác lại những lo toan thường nhật, hòa mình vào thiên nhiên và tận hưởng những giờ phút thảnh thơi bên bờ biển. Du khách có thể sử dụng thoải mái 5 hồ bơi riêng biệt bao gồm hồ bơi vô cực và hồ bơi trẻ em, thư giãn tại Quân spa với 12 phòng trị liệu, khu vực mát-xa chân, phòng xông hơi khô, phòng xông hơi ướt và bể sục ngoài trời. Ngoài ra, Khu nghỉ dưỡng còn có phòng tập thể hình hoạt động 24/7 phù hợp cho việc rèn luyện sức khỏe và khu vui chơi dành cho trẻ em trong nhà và ngoài trời.<br> Chỉ vài phút đạp xe dạo quanh Ngũ Hành Sơn, bạn có thể chiêm ngưỡng nét đẹp hùng vĩ của 5 ngọn núi huyền thoại hay khám phá văn hóa và nét đẹp địa phương từ các làng đá mỹ nghệ Non Nước.
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -421,8 +417,9 @@
                                                     <div class="elementor-element elementor-element-4d21ea3 elementor-invisible elementor-widget elementor-widget-heading" data-id="4d21ea3" data-element_type="widget" data-settings='{"_animation":"fadeInUp","_animation_delay":200,"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="heading.default">
                                                         <div class="elementor-widget-container">
                                                             <h2 class="elementor-heading-title elementor-size-default">
-                                                                Khám phá & trải nghiệm<br />
-                                                                những nơi kỳ diệu gần khách sạn của chúng tôi
+                                                                Khám phá và trải nghiệm<br />
+                                                                những điểm đến hấp dẫn quanh khách sạn của chúng tôi
+
                                                             </h2>
                                                         </div>
                                                     </div>
@@ -435,16 +432,14 @@
                                                         <div class="elementor-widget-container">
                                                             <div class="elementor-text-editor elementor-clearfix">
                                                                 <p class="p1">
-                                                                    Nếu bạn đến thăm chúng tôi vào mùa thấp điểm, khoảng từ cuối tháng 4 đến giữa tháng 6 và cuối tháng 10 đến giữa tháng 12, bạn sẽ tìm thấy một ngôi làng nhỏ buồn ngủ với
-                                                                    khoảng 5000 người dân địa phương, được bao quanh bởi thiên nhiên tươi đẹp yên tĩnh, nơi duy nhất chỉ có tiếng chuông của những chú cừu mũi đen trên đồng cỏ quanh làng
-                                                                    tiếng ồn có thể cảm nhận được.
+                                                                   Danang Marriott là một điểm đến tuyệt vời tại thành phố Đà Nẵng, nằm ở vị trí lý tưởng giữa vẻ đẹp thiên nhiên và sự phồn thịnh văn hóa. Khách sạn này không chỉ mang đến trải nghiệm lưu trú sang trọng mà còn đưa du khách vào một cuộc hành trình khám phá những điểm tham quan độc đáo xung quanh.
                                                                 </p>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="elementor-element elementor-element-a622a86 elementor-invisible elementor-widget elementor-widget-hoteller-slider-synchronized-carousel" data-id="a622a86" data-element_type="widget" data-settings='{"_animation":"fadeIn","_animation_delay":800,"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="hoteller-slider-synchronized-carousel.default">
                                                         <div class="elementor-widget-container">
-                                                            <div id="tg_synchronized_carousel_slider_a622a86" data-pagination="tg_synchronized_carousel_pagination_a622a86" class="tg_synchronized_carousel_slider_wrapper sliders-container" data-countslide="3" data-slidetitles='["Beautiful Highest Alph Mountain","Skiing in the forest","Experience mountain train express"]' data-slideimages='["../../../public/upload/hike-in-peru-PQ9G59X.jpg","../../../public/upload/boy-and-girl-skiing-in-forest-P332MXA.jpg","../../../public/upload/hike-in-peru-PQ9G59X.jpg"]' data-slidebuttontitles='["","",""]' data-slidebuttonurls='["","",""]'>
+                                                            <div id="tg_synchronized_carousel_slider_a622a86" data-pagination="tg_synchronized_carousel_pagination_a622a86" class="tg_synchronized_carousel_slider_wrapper sliders-container" data-countslide="3" data-slidetitles='["Phố cổ Hội An","Cầu Vàng","Ngũ Hành Sơn"]' data-slideimages='["../../../public/upload/phoco.png","../../../public/upload/cauvang.png","../../../public/upload/nhs.jpg"]' data-slidebuttontitles='["","",""]' data-slidebuttonurls='["","",""]'>
                                                                 <ul id="tg_synchronized_carousel_pagination_a622a86" class="tg_synchronized_carousel_pagination">
                                                                     <li class="pagination__item"><a class="pagination__button"></a></li>
                                                                     <li class="pagination__item"><a class="pagination__button"></a></li>
@@ -493,8 +488,8 @@
                                                     <div class="elementor-element elementor-element-501d6ad elementor-invisible elementor-widget elementor-widget-heading" data-id="501d6ad" data-element_type="widget" data-settings='{"_animation":"fadeInUp","_animation_delay":200,"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="heading.default">
                                                         <div class="elementor-widget-container">
                                                             <h2 class="elementor-heading-title elementor-size-default">
-                                                                Khu nghỉ dưỡng Alpine Hideaway<br />
-                                                                Trải nghiệm kỳ quan của Praha
+                                                                Danang Marriott<br />
+                                                                Khoác lên mình vẻ đẹp thiên đàng
                                                             </h2>
                                                         </div>
                                                     </div>
@@ -502,8 +497,7 @@
                                                         <div class="elementor-widget-container">
                                                             <div class="elementor-text-editor elementor-clearfix">
                                                                 <p class="p1">
-                                                                    Bề mặt được đánh bóng, giày công sở thanh lịch, dây quai đeo chéo co giãn ở giữa gót mèo, thiết kế nữ tính này, quai đeo ở giữa, gót mèo, thiết kế quý phái này
-                                                                    thiết kế. Chi tiết da vai màu tương phản đường viền peplum làm việc hình bóng tuyệt đẹp.
+                                                                   Nằm bên bờ biển xinh đẹp của thành phố Đà Nẵng, Danang Marriott không chỉ là một khách sạn đẳng cấp mà còn là điểm đến hoàn hảo cho những ai muốn tận hưởng kỳ nghỉ tươi mới và đầy ý nghĩa. Với một loạt những ưu đãi đáng kinh ngạc, chúng tôi cam kết mang đến cho bạn những trải nghiệm đáng nhớ mà bạn không bao giờ quên.
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -559,13 +553,14 @@
                                                     <div class="elementor-element elementor-element-dd593ac elementor-widget elementor-widget-hoteller-flip-box" data-id="dd593ac" data-element_type="widget" data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="hoteller-flip-box.default">
                                                         <div class="elementor-widget-container">
                                                             <div class="tg_flip_box_wrapper square-flip">
-                                                                <div class="square" data-image="../../../public/upload/food-on-a-table-in-a-hotel-room-PU969F8.jpg">
+                                                                <div class="square" data-image="../../../public/upload/uudai1.png
+                                                                ">
                                                                     <div class="square-container">
                                                                         <h2>Bao gồm bữa sáng miễn phí</h2>
                                                                     </div>
                                                                     <div class="flip-overlay"></div>
                                                                 </div>
-                                                                <div class="square2" data-image="../../../public/upload/food-on-a-table-in-a-hotel-room-PU969F8.jpg">
+                                                                <div class="square2" data-image="../../../public/upload/phong3.jpg">
                                                                     <div class="square-container2">
                                                                         <div class="align-center"></div>
                                                                         <h2>Bao gồm ăn sáng khi đặt phòng Junior Suite</h2>
@@ -585,13 +580,13 @@
                                                     <div class="elementor-element elementor-element-b6c7c60 elementor-widget elementor-widget-hoteller-flip-box" data-id="b6c7c60" data-element_type="widget" data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="hoteller-flip-box.default">
                                                         <div class="elementor-widget-container">
                                                             <div class="tg_flip_box_wrapper square-flip">
-                                                                <div class="square" data-image="../../../public/upload/room-standard-01.jpg">
+                                                                <div class="square" data-image="../../../public/upload/phong4.jpg">
                                                                     <div class="square-container">
                                                                         <h2>10% cho đặt phòng trước</h2>
                                                                     </div>
                                                                     <div class="flip-overlay"></div>
                                                                 </div>
-                                                                <div class="square2" data-image="../../../public/upload/room-standard-01.jpg">
+                                                                <div class="square2" data-image="../../../public/upload/uudai2.png">
                                                                     <div class="square-container2">
                                                                         <div class="align-center"></div>
                                                                         <h2>Hưởng chiết khấu 10%, đặt trước tối thiểu 3 ngày</h2>
@@ -611,13 +606,13 @@
                                                     <div class="elementor-element elementor-element-9ae5967 elementor-widget elementor-widget-hoteller-flip-box" data-id="9ae5967" data-element_type="widget" data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="hoteller-flip-box.default">
                                                         <div class="elementor-widget-container">
                                                             <div class="tg_flip_box_wrapper square-flip">
-                                                                <div class="square" data-image="../../../public/upload/One-Bedroom-Alpine-Suite-Lake-View.jpg">
+                                                                <div class="square" data-image="../../../public/upload/uudai31.png">
                                                                     <div class="square-container">
                                                                         <h2>15% cho đặt phòng không hoàn lại</h2>
                                                                     </div>
                                                                     <div class="flip-overlay"></div>
                                                                 </div>
-                                                                <div class="square2" data-image="../../../public/upload/One-Bedroom-Alpine-Suite-Lake-View.jpg">
+                                                                <div class="square2" data-image="../../../public/upload/uudai32.png">
                                                                     <div class="square-container2">
                                                                         <div class="align-center"></div>
                                                                         <h2>Hưởng lợi từ chiết khấu 15%, đặt chỗ trước tối thiểu 15 ngày</h2>

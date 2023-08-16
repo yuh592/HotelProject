@@ -28,7 +28,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="image-container">
-                                                                                <img src="../../../public/upload/housekeeper-cleaning-a-hotel-room-ND9A5ZV.jpg" alt="" class="image" />
+                                                                                <img src="../../../public/upload/lh1.jpg" alt="" class="image" />
                                                                             </div>
                                                                         </div>
                                                                         <div class="slide">
@@ -41,7 +41,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="image-container">
-                                                                                <img src="../../../public/upload/mature-businessman-at-hotel-reception-PSCUC9L.jpg" alt="" class="image" />
+                                                                                <img src="../../../public/upload/lh2.jpg" alt="" class="image" />
                                                                             </div>
                                                                         </div>
                                                                         <div class="slide">
@@ -54,7 +54,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="image-container">
-                                                                                <img src="../../../public/upload/mature-businessman-with-smartphone-in-a-hotel-P3RXA6W.jpg" alt="" class="image" />
+                                                                                <img src="../../../public/upload/lh3.jpg" alt="" class="image" />
                                                                             </div>
                                                                         </div>
                                                                     </div>

@@ -22,39 +22,39 @@
                                                                             <div class="slide-content">
                                                                                 <div class="caption">
                                                                                     <div class="title">
-                                                                                        <h2>Suite Gia đình nhìn ra mặt biển ở tầng trên cùng. Kể từ lần cải tạo cuối cùng của chúng tôi vào năm 2018</h2>
+                                                                                        <h2>Thích thú với những chi tiết bổ sung như sàn gỗ và đồ nội thất tùy chỉnh trong tất cả các căn hộ và biệt thự tại Đà Nẵng của chúng tôi</h2>
                                                                                     </div>
                                                                                     <div class="text"></div>
                                                                                 </div>
                                                                             </div>
                                                                             <div class="image-container">
-                                                                                <img src="../../../public/upload/One-Bedroom-Alpine-Suite-Lake-View.jpg" alt="" class="image" />
+                                                                                <img src="../../../public/upload/2.png" alt="" class="image" />
                                                                             </div>
                                                                         </div>
                                                                         <div class="slide">
                                                                             <div class="slide-content">
                                                                                 <div class="caption">
                                                                                     <div class="title">
-                                                                                        <h2>Sàn nhà lát gỗ sang trọng. Từ ban công, có thể thưởng thức quang cảnh núi non tuyệt đẹp</h2>
+                                                                                        <h2>Đắm mình trong khung cảnh tuyệt đẹp của bãi biển từ ban công riêng của bạn</h2>
                                                                                     </div>
                                                                                     <div class="text"></div>
                                                                                 </div>
                                                                             </div>
                                                                             <div class="image-container">
-                                                                                <img src="../../../public/upload/room-standard-01.jpg" alt="" class="image" />
+                                                                                <img src="../../../public/upload/phong3.jpg" alt="" class="image" />
                                                                             </div>
                                                                         </div>
                                                                         <div class="slide">
                                                                             <div class="slide-content">
                                                                                 <div class="caption">
                                                                                     <div class="title">
-                                                                                        <h2>Tất cả các lựa chọn chỗ ở của chúng tôi bao gồm các tiện nghi sang trọng như trà &amp; máy pha cà phê, minibar</h2>
+                                                                                        <h2>Biệt thự nghỉ dưỡng tại Đà Nẵng có sân vườn riêng, hồ bơi riêng và vòi sen ngoài trời</h2>
                                                                                     </div>
                                                                                     <div class="text"></div>
                                                                                 </div>
                                                                             </div>
                                                                             <div class="image-container">
-                                                                                <img src="../../../public/upload/St-Moritz-Guest-Room.jpg" alt="" class="image" />
+                                                                                <img src="../../../public/upload/3.jpg" alt="" class="image" />
                                                                             </div>
                                                                         </div>
                                                                     </div>
