@@ -12,6 +12,7 @@ include "../../models/thongke.php";
 include "../../models/hoadon.php";
 include "../../models/taikhoan.php";
 include "../../models/hotro.php";
+include "../../models/pagination.php";
 include "../../views/admin/header.php";
 // controller
 if (isset($_GET['act'])) {

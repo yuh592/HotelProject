@@ -46,11 +46,10 @@
                     <div class="pagination">
                         <?php
                         $countAcc = count_taikhoan();
-                        for ($i = 1; $i <= $totalPages; $i++) {
-                            echo '<a href="index.php?act=dskh&page=' . $i . '">' . $i . '</a>';
-                        }
-                    ?>
-</div>
+                        $totalPages = ceil($countAcc / $accountsPerPage); 
+                        display_pagination($currentPage, $totalPages);
+                        ?>
+                    </div>
             <div class="row mb10">
                 <input type="button" id="btn1" value="Chọn tất cả">
                 <input type="button" id="btn2" value="Bỏ chọn tất cả">

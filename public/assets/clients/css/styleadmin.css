@@ -483,6 +483,18 @@ table tr th{
     padding: 10px 20px;
     text-align: center;
 }
+/* pagination */
+.pagination{
+    border: #2a2f8c 1px;
+}
+.pagination a{
+    margin: 20px 10px 20px 10px;
+    border: 2px black;
+    border-radius: 5px;
+}
+.pagination .current-page{
+    color: aqua;
+}
 /* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
