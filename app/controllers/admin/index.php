@@ -12,7 +12,6 @@ include "../../models/thongke.php";
 include "../../models/hoadon.php";
 include "../../models/taikhoan.php";
 include "../../models/hotro.php";
-include "../../models/pagination.php";
 include "../../views/admin/header.php";
 // controller
 if (isset($_GET['act'])) {
@@ -36,14 +35,18 @@ if (isset($_GET['act'])) {
             include "../../views/admin/loaiphong/add.php";
             break;
         case 'listlp':
-            $listlp = loadall_loaiphong();
+            $accountsPerPage = 5;
+            $paginationData = setup__loaiphong_pagination($accountsPerPage);
+            extract($paginationData);
             include "../../views/admin/loaiphong/list.php";
             break;
         case 'xoalp':
             if (isset($_GET['id']) && ($_GET['id'] > 0)) {
                 delete_loaiphong($_GET['id']);
             }
-            $listlp = loadall_loaiphong();
+            $accountsPerPage = 5;
+            $paginationData = setup__loaiphong_pagination($accountsPerPage);
+            extract($paginationData);
             include "../../views/admin/loaiphong/list.php";
             break;
         case 'sualp':
@@ -59,7 +62,9 @@ if (isset($_GET['act'])) {
                 update_loaiphong($id, $tenloaiphong);
                 $thongbao = "Cập nhật thành công!";
             }
-            $listlp = loadall_loaiphong();
+            $accountsPerPage = 5;
+            $paginationData = setup__loaiphong_pagination($accountsPerPage);
+            extract($paginationData);
             include "../../views/admin/loaiphong/list.php";
             break;
             // phong

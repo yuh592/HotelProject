@@ -29,6 +29,13 @@
                     ?>
                 </table>
             </div>
+            <div class="row pagination">
+                        <?php
+                        $countAcc = count_loaiphong();
+                        $totalPages = ceil($countAcc / $accountsPerPage); 
+                        display_loaiphong_pagination($currentPage, $totalPages);
+                        ?>
+            </div>
             <div class="row mb10">
                 <input type="button" id="btn1" value="Chọn tất cả">
                 <input type="button" id="btn2" value="Bỏ chọn tất cả">

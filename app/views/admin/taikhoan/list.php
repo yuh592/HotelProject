@@ -43,13 +43,13 @@
                     ?>
                 </table>
             </div>
-                    <div class="pagination">
-                        <?php
-                        $countAcc = count_taikhoan();
-                        $totalPages = ceil($countAcc / $accountsPerPage); 
-                        display_pagination($currentPage, $totalPages);
-                        ?>
-                    </div>
+            <div class="row pagination">
+                <?php
+                    $countAcc = count_taikhoan();
+                    $totalPages = ceil($countAcc / $accountsPerPage); 
+                    display_taikhoan_pagination($currentPage, $totalPages);
+                ?>
+            </div>
             <div class="row mb10">
                 <input type="button" id="btn1" value="Chọn tất cả">
                 <input type="button" id="btn2" value="Bỏ chọn tất cả">

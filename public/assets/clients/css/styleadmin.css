@@ -400,42 +400,49 @@ table tr th{
 .formdshanghoa table th:nth-child(1){
     width: 10%;
     padding: 20px;
-    background-color: #FFCACA;
+    background-color: #2a2f8c;
 }
 .formdshanghoa table th:nth-child(2){
     width: 10%;
-    background-color: #FFCACA;
+    background-color: #2a2f8c;
 }
 .formdshanghoa table th:nth-child(3){
     width: 10%;
-    background-color: #FFCACA;
+    background-color: #2a2f8c;
 }
 .formdshanghoa table th:nth-child(4){
     width: 10%;
-    background-color: #FFCACA;
+    background-color: #2a2f8c;
 }
 .formdshanghoa table th:nth-child(5){
     width: 10%;
-    background-color: #FFCACA;
+    background-color: #2a2f8c;
 }
 .formdshanghoa table th:nth-child(6){
     width: 10%;
-    background-color: #FFCACA;
+    background-color: #2a2f8c;
 }
 .formdshanghoa table th:nth-child(7){
     width: 30%;
-    background-color: #FFCACA;
+    background-color: #2a2f8c;
 }
 .formdshanghoa table th:nth-child(8){
     width: 10%;
-    background-color: #FFCACA;
+    background-color: #2a2f8c;
+    
+}
+.formdshanghoa table th:nth-child(9){
+    width: 10%;
+    background-color: #2a2f8c;
 }
 .formdshanghoa table td{
-    border: 1px solid #FFCACA;
+    border: 1px solid #2a2f8c;
     padding: 10px 20px;
     text-align: center;
 }
-
+.formdshanghoa table tr th{
+    color: #FFF;
+}
 /* tk */
 .formdstk table{
     width: 100%;
@@ -454,31 +461,31 @@ table tr th{
     width: 10%;
     background-color: #FFCACA;
 }
-.formdshanghoa table th:nth-child(4){
+.formdstk table th:nth-child(4){
     width: 10%;
     background-color: #FFCACA;
 }
-.formdshangha table th:nth-child(5){
+.formdstk table th:nth-child(5){
     width: 20%;
     background-color: #FFCACA;
 }
-.formdshanghoa table th:nth-child(6){
+.formdstk table th:nth-child(6){
     width: 10%;
     background-color: #FFCACA;
 }
-.formdshanghoa table th:nth-child(7){
+.formdstk table th:nth-child(7){
     width: 10%;
     background-color: #FFCACA;
 }
-.formdshanghoa table th:nth-child(8){
+.formdstk table th:nth-child(8){
     width: 10%;
     background-color: #FFCACA;
 }
-.formdshanghoa table th:nth-child(9){
+.formdstk table th:nth-child(9){
     width: 10%;
     background-color: #FFCACA;
 }
-.formdshanghoa table td{
+.formdstk table td{
     border: 1px solid #FFCACA;
     padding: 10px 20px;
     text-align: center;
