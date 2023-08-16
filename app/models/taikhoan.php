@@ -37,31 +37,17 @@
         $listtaikhoan=pdo_query($sql);
         return $listtaikhoan;
     }
-    // Function to count total accounts based on the search keyword
+
     function count_taikhoan() {
-    // Construct the SQL query to count total accounts
     $sql = "SELECT COUNT(*) AS total FROM taikhoan";
-
-    // Execute the query and fetch the result
     $countAcc = pdo_query_one($sql);
-
-    // Return the total count of accounts
     return $countAcc['total'];
     }
     
-    // Function to load accounts for the current page
     function load_accounts_for_page($startFrom, $accountsPerPage) {
-    // Construct the SQL query to load accounts for the current page
     $sql = "SELECT * FROM taikhoan";
-
-    // Add LIMIT and OFFSET clauses for pagination
     $sql .= " LIMIT $startFrom, $accountsPerPage";
-
-    // Execute the query and fetch the list of accounts
     $listtaikhoan = pdo_query($sql);
-
-    // Return the list of accounts
     return $listtaikhoan;
-
     }
 ?>

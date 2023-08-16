@@ -43,12 +43,13 @@
                     ?>
                 </table>
             </div>
-            <div class="pagination">
-    <?php echo "$countAcc";
-    for ($i = 1; $i <= $totalPages; $i++) {
-        echo '<a href="index.php?act=dstk&page=' . $i . '">' . $i . '</a>';
-    }
-    ?>
+                    <div class="pagination">
+                        <?php
+                        $countAcc = count_taikhoan();
+                        for ($i = 1; $i <= $totalPages; $i++) {
+                            echo '<a href="index.php?act=dskh&page=' . $i . '">' . $i . '</a>';
+                        }
+                    ?>
 </div>
             <div class="row mb10">
                 <input type="button" id="btn1" value="Chọn tất cả">

@@ -185,12 +185,21 @@ if (isset($_GET['act'])) {
             include "../../views/admin/datphong/list.php";
             break;
         case 'dskh':
+            $accountsPerPage = 5;
+            $currentPage = isset($_GET['page']) ? intval($_GET['page']) : 1;
+
             if (isset($_POST['gui']) && ($_POST['gui'])) {
                 $kyw = $_POST['kyw'];
+                $listtaikhoan = loadall_taikhoan($kyw);
             } else {
                 $kyw = '';
+                $startFrom = ($currentPage - 1) * $accountsPerPage;
+                $listtaikhoan = load_accounts_for_page($startFrom, $accountsPerPage);
             }
-            $listtaikhoan = loadall_taikhoan($kyw);
+
+            $totalCount = count_taikhoan();
+            $totalPages = ceil($totalCount / $accountsPerPage);
+
             include "../../views/admin/taikhoan/list.php";
             break;
         case 'xoatk':
@@ -220,28 +229,6 @@ if (isset($_GET['act'])) {
             $listtaikhoan = loadall_taikhoan("", 0);
             include "../../views/admin/taikhoan/list.php";
             break;
-        case 'dstk':
-                // Set the number of accounts per page
-                $accountsPerPage = 5; // Adjust this value as needed
-            
-                // Get the current page from the query parameter
-                $currentPage = isset($_GET['page']) ? intval($_GET['page']) : 1;
-            
-                // Calculate the start index for the accounts to display
-                $startFrom = ($currentPage - 1) * $accountsPerPage;
-            
-                // Load the list of user accounts for the current page
-                $listtaikhoan = load_accounts_for_page($startFrom, $accountsPerPage);
-            
-                // Get the total count of user accounts for pagination
-                $totalCount = count_taikhoan();
-            
-                // Calculate the total number of pages
-                $totalPages = ceil($totalCount / $accountsPerPage);
-            
-                // Include the view file for the list of user accounts with pagination
-                include "../../views/admin/taikhoan/list.php";
-                break;
         case 'listhd':
             if (isset($_POST['capnhat']) && ($_POST['capnhat'])) {
                 $giaodich = $_POST['giaodich'];
