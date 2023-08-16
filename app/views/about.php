@@ -40,34 +40,34 @@
                                                                                         <div class="slide is-active">
                                                                                             <div class="slide-content">
                                                                                                 <div class="caption">
-                                                                                                    <div class="title"><h2>Không gian đầy đủ tiện nghi như ở nhà</h2></div>
+                                                                                                    <div class="title"><h2>Tìm sự bình yên tại Danang Marriott </h2></div>
                                                                                                     <div class="text"></div>
                                                                                                 </div>
                                                                                             </div>
                                                                                             <div class="image-container">
-                                                                                                <img src="../../../public/upload/149368628.jpg" alt="" class="image" />
+                                                                                                <img src="../../../public/upload/nen123.jpg" alt="" class="image" />
                                                                                             </div>
                                                                                         </div>
                                                                                         <div class="slide">
                                                                                             <div class="slide-content">
                                                                                                 <div class="caption">
-                                                                                                    <div class="title"><h2>Sự hài lòng của khách hàng là tôn chỉ của chúng tôi</h2></div>
+                                                                                                    <div class="title"><h2>Sự tồn tại của nhà hàng phụ thuộc vào việc lan truyền thông tin</h2></div>
                                                                                                     <div class="text"></div>
                                                                                                 </div>
                                                                                             </div>
                                                                                             <div class="image-container">
-                                                                                                <img src="../../../public/upload/chef-presenting-food-to-customers-in-the-P8DB3B8-1.jpg" alt="" class="image" />
+                                                                                                <img src="../../../public/upload/lh1.jpg" alt="" class="image" />
                                                                                             </div>
                                                                                         </div>
                                                                                         <div class="slide">
                                                                                             <div class="slide-content">
                                                                                                 <div class="caption">
-                                                                                                    <div class="title"><h2>Lựa chọn tuyệt vời cho một kỳ nghỉ</h2></div>
+                                                                                                    <div class="title"><h2>Lựa chọn tuyệt vời cho một kỳ nghỉ thư giãn cho gia đình có trẻ em hoặc một nhóm bạn</h2></div>
                                                                                                     <div class="text"></div>
                                                                                                 </div>
                                                                                             </div>
                                                                                             <div class="image-container">
-                                                                                                <img src="../../../public/upload/hike-in-peru-PQ9G59X.jpg" alt="" class="image" />
+                                                                                                <img src="../../../public/upload/Danang.jpg" alt="" class="image" />
                                                                                             </div>
                                                                                         </div>
                                                                                     </div>
@@ -159,8 +159,8 @@
                                                                     >
                                                                         <div class="elementor-widget-container">
                                                                             <h2 class="elementor-heading-title elementor-size-default">
-                                                                                Dịch vụ của chúng tôi và<br />
-                                                                                bãi biển Non Nước
+                                                                                Dịch vụ đỉnh cao<br />
+                                                                                đẳng cấp thế giới
                                                                             </h2>
                                                                         </div>
                                                                     </div>
