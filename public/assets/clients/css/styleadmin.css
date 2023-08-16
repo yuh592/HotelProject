@@ -653,3 +653,48 @@ nav .toggle_menu svg{
     font-size: 1.5em;
     transition: linear 0.2s;
 }
+.pagination {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pagination a {
+    color: #333;
+    padding: 8px 12px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+
+.pagination a.active {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+}
+
+.pagination a.disabled {
+    color: #aaa;
+    pointer-events: none;
+}
+
+.pagination a:hover {
+    background-color: #ddd;
+}
+.formcontent .mb10 input[type="button"] {
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    border: 1px solid #2a2f8c;
+    cursor: pointer;
+    margin-right: 10px; 
+    margin-top: 20px;
+}
+#btn1, #btn2, #btn3 {
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    border: 1px solid #2a2f8c;
+    cursor: pointer;
+    margin-right: 10px; 
+}
