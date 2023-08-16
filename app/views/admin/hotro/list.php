@@ -1,9 +1,6 @@
 <div class="row">
     <div class="row mb headeradmin" style="width:143%;">
-        <h1 style="padding: 15px 0;">ADMIN </h1>
-    </div>
-    <div class="row formtittle" style="width:143%;">
-        <h3>DANH SÁCH HỖ TRỢ</h3>
+        <h1 style="padding: 15px 0;">DANH SÁCH HỖ TRỢ </h1>
     </div>
     <div class="row formcontent">
         <form action="index.php?act=thongke" method="post">
@@ -14,7 +11,7 @@
                         <th>TÊN KHÁCH HÀNG</th>
                         <th>SỐ ĐIỆN THOẠI</th>
                         <th>MESSAGE</th>
-                        <th style="background-color: #FFCACA;">ACTION</th>
+                        <th>ACTION</th>
                     </tr>
                     <?php
                     foreach ($listhotro as $hotro) {

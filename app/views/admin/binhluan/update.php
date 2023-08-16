@@ -5,10 +5,7 @@ if (is_array($bl)) {
 ?>
 <div class="row">
     <div class="row mb headeradmin" style="width:1000px;">
-        <h1 style="padding: 15px 0;">ADMIN </h1>
-    </div>
-    <div class="row mb10 formtittle" style="width:1000px;">
-        <h3>CẬP NHẬT BÌNH LUẬN</h3>
+        <h1 style="padding: 15px 0;">CẬP NHẬT BÌNH LUẬN </h1>
     </div>
     <?php
     if (isset($thongbao) && ($thongbao != "")) echo $thongbao;
