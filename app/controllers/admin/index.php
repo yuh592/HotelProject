@@ -333,13 +333,19 @@ if (isset($_GET['act'])) {
             include "../../views/admin/binhluan/list.php";
             break;
         case 'dsht':
+            $accountsPerPage = 5;
+            $currentPage = isset($_GET['page']) ? intval($_GET['page']) : 1;
+
             if (isset($_POST['gui']) && ($_POST['gui'])) {
                 $kyw = $_POST['kyw'];
                 $listhotro = loadall_hotro($kyw);
             } else {
                 $kyw = '';
-                $listhotro = loadall_hotro();
+                $startFrom = ($currentPage - 1) * $accountsPerPage;
+                $listhotro = load_hotro_for_page($startFrom, $accountsPerPage);
             }
+            $totalCount = count_hotro();
+            $totalPages = ceil($totalCount / $accountsPerPage);
             include "../../views/admin/hotro/list.php";
             break;
         case 'xoaht':

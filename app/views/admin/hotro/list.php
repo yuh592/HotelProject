@@ -32,6 +32,13 @@
                     ?>
                 </table>
             </div>
+            <div class="row pagination">
+                <?php
+                $countAcc = count_hotro();
+                $totalPages = ceil($countAcc / $accountsPerPage); 
+                display_hotro_pagination($currentPage, $totalPages);
+                ?>
+            </div>
         </form>
         <script>
             function DELETE() {
