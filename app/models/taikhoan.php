@@ -22,9 +22,9 @@
         $sp = pdo_query_one($sql);
         return $sp;
     }
-    function update_taikhoan($id,$user,$password,$email,$address,$tel){
+    function update_taikhoan($id,$user,$password,$email,$address,$tel, $role){
         $sql="UPDATE taikhoan
-            SET username = '$user', password = '$password',email = '$email',tel = '$tel',address = '$address'
+            SET username = '$user', password = '$password',email = '$email',tel = '$tel',address = '$address', role = '$role'
             WHERE id_user=$id";
         pdo_execute($sql);
     }

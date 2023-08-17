@@ -41,7 +41,7 @@ if (is_array($tk)) {
             </div>
             <div class="row mb10">
                 <label for="">ROLE</label><br>
-                <input type="text" name="role" style="width:292%;" value="<?= $role ?>" disabled>
+                <input type="text" name="role" style="width:292%;" value="<?= $role ?>">
             </div>
             <div class="row mb10" style="margin-top:10px;">
                 <input type="hidden" name="id" value="<?php if (isset($id_user) && ($id_user > 0)) echo $id_user; ?>">

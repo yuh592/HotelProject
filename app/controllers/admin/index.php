@@ -272,6 +272,9 @@ if (isset($_GET['act'])) {
             include "../../views/admin/taikhoan/update.php";
             break;
         case 'updatetk':
+            $accountsPerPage = 5;
+            $currentPage = isset($_GET['page']) ? intval($_GET['page']) : 1;
+
             if (isset($_POST['capnhat']) && ($_POST['capnhat'])) {
                 $id = $_POST['id'];
                 $user = $_POST['user'];
@@ -279,10 +282,14 @@ if (isset($_GET['act'])) {
                 $email = $_POST['email'];
                 $address = $_POST['address'];
                 $tel = $_POST['tel'];
-                update_taikhoan($id, $user, $password, $email, $address, $tel);
+                $role = $_POST['role'];
+                update_taikhoan($id, $user, $password, $email, $address, $tel, $role);
                 $thongbao = "Cập nhật thành công!";
             }
-            $listtaikhoan = loadall_taikhoan("", 0);
+            $startFrom = ($currentPage - 1) * $accountsPerPage;
+            $listtaikhoan = load_accounts_for_page($startFrom, $accountsPerPage);
+            $totalCount = count_taikhoan();
+            $totalPages = ceil($totalCount / $accountsPerPage);
             include "../../views/admin/taikhoan/list.php";
             break;
         // case 'listhd':

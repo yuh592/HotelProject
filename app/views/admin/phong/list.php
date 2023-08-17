@@ -67,7 +67,7 @@
             <div class="row mb10" style="display:flex;">
                 <input type="button" id="btn1" value="Chọn tất cả">
                 <input type="button" id="btn2" value="Bỏ chọn tất cả" style="margin-left:10px;">
-                <input type="button" value="Xóa các mục đã chọn" style="margin-left:10px;">
+                <!-- <input type="button" value="Xóa các mục đã chọn" style="margin-left:10px;"> -->
                 <a href="index.php?act=addp"><input type="button" value="Nhập thêm" style="margin-left:10px;"></a>
             </div>
         </form>

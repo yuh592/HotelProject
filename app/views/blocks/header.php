@@ -188,9 +188,9 @@
                                                                                     </div>
                                                                                 </a>
                                                                                 <ol class="header__navbar-user-menu">
-                                                                                    <li class="header__navbar-user-item">
+                                                                                    <!-- <li class="header__navbar-user-item">
                                                                                         <a class="header__navbar-item-link" href="../../controllers/user/index.php?act=tk">TÀI KHOẢN CỦA TÔI/</a>
-                                                                                    </li>
+                                                                                    </li> -->
                                                                                     <li class="header__navbar-user-item header__navbar-user-item--separate">
                                                                                         <a href="../../controllers/user/index.php?act=thoat">ĐĂNG XUẤT</a>
                                                                                     </li>

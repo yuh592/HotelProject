@@ -39,7 +39,7 @@
             <div class="row mb10">
                 <input type="button" id="btn1" value="Chọn tất cả">
                 <input type="button" id="btn2" value="Bỏ chọn tất cả">
-                <input type="button" value="Xóa các mục đã chọn">
+                <!-- <input type="button" value="Xóa các mục đã chọn"> -->
                 <a href="index.php?act=addlp"><input type="button" value="Nhập thêm"></a>
             </div>
         </form>
