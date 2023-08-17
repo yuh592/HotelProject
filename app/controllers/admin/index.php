@@ -349,10 +349,16 @@ if (isset($_GET['act'])) {
             include "../../views/admin/hotro/list.php";
             break;
         case 'xoaht':
+            $accountsPerPage = 5;
+            $currentPage = isset($_GET['page']) ? intval($_GET['page']) : 1;
+
             if (isset($_GET['id']) && ($_GET['id'] > 0)) {
                 delete_hotro($_GET['id']);
             }
-            $listhotro = loadall_hotro(0);
+            $startFrom = ($currentPage - 1) * $accountsPerPage;
+            $listhotro = load_hotro_for_page($startFrom, $accountsPerPage);
+            $totalCount = count_hotro();
+            $totalPages = ceil($totalCount / $accountsPerPage);
             include "../../views/admin/hotro/list.php";
             break;
         case 'datt':
