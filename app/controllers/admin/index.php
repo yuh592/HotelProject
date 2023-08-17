@@ -35,14 +35,18 @@ if (isset($_GET['act'])) {
             include "../../views/admin/loaiphong/add.php";
             break;
         case 'listlp':
-            $listlp = loadall_loaiphong();
+            $accountsPerPage = 5;
+            $paginationData = setup__loaiphong_pagination($accountsPerPage);
+            extract($paginationData);
             include "../../views/admin/loaiphong/list.php";
             break;
         case 'xoalp':
             if (isset($_GET['id']) && ($_GET['id'] > 0)) {
                 delete_loaiphong($_GET['id']);
             }
-            $listlp = loadall_loaiphong();
+            $accountsPerPage = 5;
+            $paginationData = setup__loaiphong_pagination($accountsPerPage);
+            extract($paginationData);
             include "../../views/admin/loaiphong/list.php";
             break;
         case 'sualp':
@@ -58,7 +62,9 @@ if (isset($_GET['act'])) {
                 update_loaiphong($id, $tenloaiphong);
                 $thongbao = "Cập nhật thành công!";
             }
-            $listlp = loadall_loaiphong();
+            $accountsPerPage = 5;
+            $paginationData = setup__loaiphong_pagination($accountsPerPage);
+            extract($paginationData);
             include "../../views/admin/loaiphong/list.php";
             break;
             // phong
@@ -185,12 +191,21 @@ if (isset($_GET['act'])) {
             include "../../views/admin/datphong/list.php";
             break;
         case 'dskh':
+            $accountsPerPage = 5;
+            $currentPage = isset($_GET['page']) ? intval($_GET['page']) : 1;
+
             if (isset($_POST['gui']) && ($_POST['gui'])) {
                 $kyw = $_POST['kyw'];
+                $listtaikhoan = loadall_taikhoan($kyw);
             } else {
                 $kyw = '';
+                $startFrom = ($currentPage - 1) * $accountsPerPage;
+                $listtaikhoan = load_accounts_for_page($startFrom, $accountsPerPage);
             }
-            $listtaikhoan = loadall_taikhoan($kyw);
+
+            $totalCount = count_taikhoan();
+            $totalPages = ceil($totalCount / $accountsPerPage);
+
             include "../../views/admin/taikhoan/list.php";
             break;
         case 'xoatk':
@@ -220,23 +235,6 @@ if (isset($_GET['act'])) {
             $listtaikhoan = loadall_taikhoan("", 0);
             include "../../views/admin/taikhoan/list.php";
             break;
-        case 'dstk':
-                $listtaikhoan = loadall_taikhoan("", 0);
-                // Get the total number of accounts
-                $totalAccounts = count_all_taikhoan();
-            
-                // Pagination variables
-                $accountsPerPage = 5;
-                $totalPages = ceil($totalAccounts / $accountsPerPage);
-                $currentPage = isset($_GET['page']) ? intval($_GET['page']) : 1;
-                $startFrom = ($currentPage - 1) * $accountsPerPage;
-            
-                // Load accounts for the current page
-                $listtaikhoan = load_accounts_for_page($startFrom, $accountsPerPage);
-            
-                include "../../views/admin/taikhoan/list.php";
-                break;
-            
         case 'listhd':
             if (isset($_POST['capnhat']) && ($_POST['capnhat'])) {
                 $giaodich = $_POST['giaodich'];

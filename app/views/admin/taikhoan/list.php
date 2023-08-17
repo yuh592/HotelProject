@@ -1,9 +1,6 @@
 <div class="row">
     <div class="row mb headeradmin" style="width:148%;">
-        <h1 style="padding: 15px 0;">ADMIN </h1>
-    </div>
-    <div class="row formtittle" style="width:148%;">
-        <h3>DANH SÁCH TÀI KHOẢN</h3>
+        <h1 style="padding: 15px 0;">DANH SÁCH TÀI KHOẢN </h1>
     </div>
     <div class="row formcontent" style="width:1050px;">
         <form action="index.php?act=dskh" method="post">
@@ -20,7 +17,7 @@
                         <th>ĐỊA CHỈ</th>
                         <th>ĐIỆN THOẠI</th>
                         <th>ROLE</th>
-                        <th style="background-color: #FFCACA;">ACTION</th>
+                        <th>ACTION</th>
                     </tr>
                     <?php
                     foreach ($listtaikhoan as $taikhoan) {
@@ -43,17 +40,18 @@
                     ?>
                 </table>
             </div>
-            <div class="pagination">
-            <?php
-            for ($i = 1; $i <= $totalPages; $i++) {
-                echo '<a href="index.php?act=dskh&page=' . $i . '">' . $i . '</a>';
-            }
-            ?>
             </div>
+    <div class="row pagination">
+        <?php
+        $countAcc = count_taikhoan();
+        $totalPages = ceil($countAcc / $accountsPerPage); 
+        display_taikhoan_pagination($currentPage, $totalPages); // Call the pagination function here
+        ?>
+    </div>
             <div class="row mb10">
                 <input type="button" id="btn1" value="Chọn tất cả">
                 <input type="button" id="btn2" value="Bỏ chọn tất cả">
-                <input type="button" value="Xóa các mục đã chọn">
+                <input type="button" id="btn3" value="Xóa các mục đã chọn">
             </div>
         </form>
         <script>

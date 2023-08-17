@@ -327,7 +327,7 @@
                                                     <div class="elementor-element elementor-element-38b22f7 elementor_mobile_nav elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="38b22f7" data-element_type="widget" data-settings='{"hoteller_image_is_animation":"false","hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="image.default">
                                                         <div class="elementor-widget-container">
                                                             <div class="elementor-image">
-                                                                <img width="68" height="50" src="upload/menu_icon.png" class="attachment-full size-full" alt="" loading="lazy" />
+                                                                <img width="68" height="50" src="../../../public/upload/menu_icon.png" class="attachment-full size-full" alt="" loading="lazy" />
                                                             </div>
                                                         </div>
                                                     </div>

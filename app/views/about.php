@@ -51,7 +51,7 @@
                                                                                         <div class="slide">
                                                                                             <div class="slide-content">
                                                                                                 <div class="caption">
-                                                                                                    <div class="title"><h2>Sự tồn tại của nhà hàng phụ thuộc vào việc lan truyền thông tin</h2></div>
+                                                                                                    <div class="title"><h2>Sự hài lòng của khách hàng là tôn chỉ của chúng tôi</h2></div>
                                                                                                     <div class="text"></div>
                                                                                                 </div>
                                                                                             </div>
@@ -62,7 +62,7 @@
                                                                                         <div class="slide">
                                                                                             <div class="slide-content">
                                                                                                 <div class="caption">
-                                                                                                    <div class="title"><h2>Lựa chọn tuyệt vời cho một kỳ nghỉ thư giãn cho gia đình có trẻ em hoặc một nhóm bạn</h2></div>
+                                                                                                    <div class="title"><h2>Lựa chọn tuyệt vời cho một kỳ nghỉ thư giãn </h2></div>
                                                                                                     <div class="text"></div>
                                                                                                 </div>
                                                                                             </div>
@@ -190,7 +190,7 @@ Với vị trí độc đáo hướng ra bãi biển, khách sạn chúng tôi t
                                                                     >
                                                                         <div class="elementor-widget-container">
                                                                             <div class="elementor-button-wrapper">
-                                                                                <a href="our-rooms.html" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+                                                                                <a href="index.php?act=ourrooms" class="elementor-button-link elementor-button elementor-size-sm" role="button">
                                                                                     <span class="elementor-button-content-wrapper">
                                                                                         <span class="elementor-button-text">Về phòng của chúng tôi</span>
                                                                                     </span>

@@ -1,9 +1,6 @@
 <div class="row">
     <div class="row mb headeradmin" style="width:148%;">
-        <h1 style="padding: 15px 0;">ADMIN </h1>
-    </div>
-    <div class="row formtittle" style="width:148%;">
-        <h3>DANH SÁCH BÌNH LUẬN</h3>
+        <h1 style="padding: 15px 0;">DANH SÁCH BÌNH LUẬN </h1>
     </div>
     <div class="row formcontent" style="width:1040px;">
         <form action="index.php?act=listbl" method="post">
@@ -15,7 +12,7 @@
                         <th>MÃ KHÁCH HÀNG</th>
                         <th>NGÀY BÌNH LUẬN</th>
                         <th>MÃ PHÒNG</th>
-                        <th style="background-color: #FFCACA;">ACTION</th>
+                        <th>ACTION</th>
                     </tr>
                     <?php foreach ($listbl as $binhluan) {?>
                         <?php extract($binhluan);?>

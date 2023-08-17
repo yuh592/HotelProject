@@ -256,9 +256,7 @@ Chúng tôi luôn cháo đón bạn tại Danang Marriott.
                                                     </div>
                                                     <div class="elementor-element elementor-element-512bfa1 elementor-invisible elementor-widget elementor-widget-image" data-id="512bfa1" data-element_type="widget" data-settings='{"_animation":"fadeInUp","_animation_delay":800,"hoteller_image_is_animation":"false","hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="image.default">
                                                         <div class="elementor-widget-container">
-                                                            <div class="elementor-image">
-                                                                <img width="432" height="124" src="../../../public/upload/sanh.jpg" class="attachment-full size-full" alt="" loading="lazy" />
-                                                            </div>
+                                                            
                                                         </div>
                                                     </div>
                                                     <div class="elementor-element elementor-element-33ec55d elementor-invisible elementor-widget elementor-widget-heading" data-id="33ec55d" data-element_type="widget" data-settings='{"_animation":"fadeInUp","_animation_delay":1000,"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="heading.default">
@@ -424,9 +422,7 @@ Chúng tôi luôn cháo đón bạn tại Danang Marriott.
                                                         </div>
                                                     </div>
                                                     <div class="elementor-element elementor-element-bbbf394 elementor-invisible elementor-widget elementor-widget-heading" data-id="bbbf394" data-element_type="widget" data-settings='{"_animation":"fadeInUp","_animation_delay":400,"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="heading.default">
-                                                        <div class="elementor-widget-container">
-                                                            <span class="elementor-heading-title elementor-size-default">Correspondingly during this time, there are a lot of parties, and happenings going on</span>
-                                                        </div>
+                                                        
                                                     </div>
                                                     <div class="elementor-element elementor-element-0358bbe elementor-invisible elementor-widget elementor-widget-text-editor" data-id="0358bbe" data-element_type="widget" data-settings='{"_animation":"fadeInUp","_animation_delay":600,"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="text-editor.default">
                                                         <div class="elementor-widget-container">
@@ -515,11 +511,7 @@ Chúng tôi luôn cháo đón bạn tại Danang Marriott.
                                             <div class="elementor-column-wrap elementor-element-populated">
                                                 <div class="elementor-widget-wrap">
                                                     <div class="elementor-element elementor-element-46767e3 elementor-widget elementor-widget-heading" data-id="46767e3" data-element_type="widget" data-settings='{"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="heading.default">
-                                                        <div class="elementor-widget-container">
-                                                            <span class="elementor-heading-title elementor-size-default">
-                                                                Mỗi tài sản của chúng tôi đều có vị trí độc đáo nhưng được kết nối thông qua một chuỗi dịch vụ vô song
-                                                            </span>
-                                                        </div>
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -563,7 +555,7 @@ Chúng tôi luôn cháo đón bạn tại Danang Marriott.
                                                                 <div class="square2" data-image="../../../public/upload/phong3.jpg">
                                                                     <div class="square-container2">
                                                                         <div class="align-center"></div>
-                                                                        <h2>Bao gồm ăn sáng khi đặt phòng Junior Suite</h2>
+                                                                        <h2>Bao gồm ăn sáng khi đặt phòng Luxury</h2>
                                                                         <a href="index.html" class="boxshadow button">Xem đề nghị</a>
                                                                     </div>
                                                                     <div class="flip-overlay"></div>

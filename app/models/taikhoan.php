@@ -37,37 +37,30 @@
         $listtaikhoan=pdo_query($sql);
         return $listtaikhoan;
     }
-    // Function to count total accounts based on the search keyword
-    function count_all_taikhoan() {
-        // Construct the SQL query to count total accounts
-        $sql = "SELECT COUNT(*) AS total FROM taikhoan";
-        // Prepare the query
-        $pdo = new PDO("mysql:host=localhost;dbname=khachsan", "root", "");
-    
-        $stmt = $pdo->prepare($sql);
-        
-        // Execute the query
-        $stmt->execute();
-        
-        // Fetch the total count
-        $totalCount = $stmt->fetchColumn();
-        
-        // Return the total count of accounts
-        return $totalCount;
+
+    function count_taikhoan() {
+    $sql = "SELECT COUNT(*) AS total FROM taikhoan";
+    $countAcc = pdo_query_one($sql);
+    return $countAcc['total'];
     }
     
-    // Function to load accounts for the current page
     function load_accounts_for_page($startFrom, $accountsPerPage) {
-        // Construct the SQL query to load accounts for the current page
-        $sql = "SELECT * FROM taikhoan";
-    
-        // Add LIMIT and OFFSET clauses for pagination
-        $sql .= " LIMIT $startFrom, $accountsPerPage";
-    
-        // Execute the query and fetch the list of accounts
-        $listtaikhoan = pdo_query($sql);
-    
-        // Return the list of accounts
-        return $listtaikhoan;
+    $sql = "SELECT * FROM taikhoan";
+    $sql .= " LIMIT $startFrom, $accountsPerPage";
+    $listtaikhoan = pdo_query($sql);
+    return $listtaikhoan;
+    }
+
+    //thay act = page khac
+    function display_taikhoan_pagination($currentPage, $totalPages) {
+        echo '<a class="' . ($currentPage === 1 ? 'disabled' : '') . '" href="index.php?act=dskh&page=1">First</a>';
+        for ($i = 1; $i <= $totalPages; $i++) {
+            if ($i == $currentPage) {
+                echo '<a class="active" href="index.php?act=dskh&page=' . $i . '">' . $i . '</a>';
+            } else {
+                echo '<a href="index.php?act=dskh&page=' . $i . '">' . $i . '</a>';
+            }
+        }
+        echo '<a href="index.php?act=dskh&page=' . $totalPages . '">Last</a>';
     }
 ?>

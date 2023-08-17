@@ -1,16 +1,13 @@
 <div class="row">
     <div class="row mb headeradmin" style="width:1050px;">
-        <h1 style="padding: 15px 0;">ADMIN </h1>
-    </div>
-    <div class="row formtittle" style="width:1050px;">
-        <h3>QUẢN LÝ PHÒNG</h3>
+        <h1 style="padding: 15px 0;">QUẢN LÝ PHÒNG</h1>
     </div>
 
     <div class="row formcontent">
         <form action="index.php?act=listp" method="post">
             <div class="tk" style="display:flex;">
             <input type="text" name="kyw" placeholder="Tìm kiếm phòng" style="width:70%;">
-            <select name="idlp" style="margin-left:20px;padding:10px;width:50%;border-radius:5px;border: 1px solid #FFCACA;color:#372948;">
+            <select name="idlp" style="margin-left:20px;padding:10px;width:50%;border-radius:5px;border: 1px solid #2a2f8c;color:#372948;">
                 <option value="0" selected>Tất cả</option>
                 <?php
                 foreach ($listlp as $loaiphong) {
