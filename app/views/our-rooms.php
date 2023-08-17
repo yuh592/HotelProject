@@ -83,7 +83,7 @@
                             <section class="grid grid-cols-4 my-4 gap-2">
                                 <?php foreach ($listpcungloai as $item) { ?>
                                     <div class="shadow-lg p-2 ">
-                                        <div class="bg-green-600 w-50 rounded-br-xl h-12 absolute z-10 text-white font-bold text-2xl p-2">Còn Trống</div>
+                                        <div class="bg-green-600 w-50 rounded-br-xl h-12 absolute z-1 text-white font-bold text-2xl p-2">Còn Trống</div>
                                         <a href="index.php?act=room&id=<?php echo $item['id_phong'] ?>">
                                             <img src="../../../public/upload/<?php echo $item['img'] ?>" alt="">
                                         </a>

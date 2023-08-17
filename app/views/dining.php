@@ -184,7 +184,7 @@
                                                                     >
                                                                         <div class="elementor-widget-container">
                                                                             <div class="elementor-button-wrapper">
-                                                                                <a href="https://themes.themegoods.com/hoteller/sites/about-us" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+                                                                                <a href="../../controllers/user/index.php?act=about" class="elementor-button-link elementor-button elementor-size-sm" role="button">
                                                                                     <span class="elementor-button-content-wrapper">
                                                                                         <span class="elementor-button-text">Xem thêm</span>
                                                                                     </span>
@@ -290,9 +290,9 @@ Không gian của chúng tôi được thiết kế để kết nối bạn vớ
                                                                     >
                                                                         <div class="elementor-widget-container">
                                                                             <div class="elementor-button-wrapper">
-                                                                                <a href="https://themes.themegoods.com/hoteller/sites/about-us" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+                                                                                <a href="../../controllers/user/index.php?act=about" class="elementor-button-link elementor-button elementor-size-sm" role="button">
                                                                                     <span class="elementor-button-content-wrapper">
-                                                                                        <span class="elementor-button-text">View more</span>
+                                                                                        <span class="elementor-button-text">Xem thêm</span>
                                                                                     </span>
                                                                                 </a>
                                                                             </div>
@@ -447,7 +447,7 @@ Không gian của chúng tôi được thiết kế để kết nối bạn vớ
                                                                                     <div class="square-container2">
                                                                                         <div class="align-center"></div>
                                                                                         <h2>Bữa sáng đi kèm khi đặt phòng luxury</h2>
-                                                                                        <a class="button" href="index.html" class="boxshadow button">View Offer</a>
+                                                                                        <a class="button" href="../../controllers/user/index.php?act=booknow" class="boxshadow button">Đặt phòng</a>
                                                                                     </div>
                                                                                     <div class="flip-overlay"></div>
                                                                                 </div>
@@ -484,7 +484,7 @@ Không gian của chúng tôi được thiết kế để kết nối bạn vớ
                                                                                     <div class="square-container2">
                                                                                         <div class="align-center"></div>
                                                                                         <h2>Ưu đãi giảm giá 10%, đối với khách đặt trước chỗ ít nhất 3 ngày </h2>
-                                                                                        <a class="button" href="index.html" class="boxshadow button">View Offer</a>
+                                                                                        <a class="button" href="../../controllers/user/index.php?act=booknow" class="boxshadow button">Đặt phòng</a>
                                                                                     </div>
                                                                                     <div class="flip-overlay"></div>
                                                                                 </div>
@@ -521,7 +521,7 @@ Không gian của chúng tôi được thiết kế để kết nối bạn vớ
                                                                                     <div class="square-container2">
                                                                                         <div class="align-center"></div>
                                                                                         <h2>Ưu đãi giảm giá 15%, khi bạn đặt chỗ trước ít nhất 15 ngày.</h2>
-                                                                                        <a class="button" href="index.html" class="boxshadow button">View Offer</a>
+                                                                                        <a class="button" href="../../controllers/user/index.php?act=booknow" class="boxshadow button">Đặt phòng</a>
                                                                                     </div>
                                                                                     <div class="flip-overlay"></div>
                                                                                 </div>
