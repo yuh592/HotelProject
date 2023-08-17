@@ -8665,9 +8665,12 @@ input[type="tel"],
 input[type="date"],
 textarea,
 select {
-    background-color: #ffffff;
-    color: #222222;
-    border-color: #222222;
+    width: 100%;
+    padding:10px 15px;
+    font-size: 14px;
+    margin:8px 0;
+    background: #eee;
+    border-radius: 5px;
 }
 input[type="text"]:focus,
 input[type="password"]:focus,
@@ -9248,5 +9251,11 @@ p.price ins span.amount,
 
 textarea.input {
     height: 200px;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 14px;
+    margin: 8px 0;
+    background: #eee;
+    border-radius: 5px;
 }
 
