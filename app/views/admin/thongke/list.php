@@ -51,7 +51,7 @@
                     }
                     ?>
                 </table><br><br>
-                <h3 style="font-weight: 600;">THỐNG KÊ ĐẶT PHÒNG</h3>
+                <h3 style="font-weight: 600;">THỐNG KÊ PHÒNG ĐÃ THANH TOÁN</h3>
                 <table>
                     <tr>
                         <th>MÃ LOẠI PHÒNG</th>
@@ -64,9 +64,9 @@
                     foreach ($listthongkedp as $thongke) {
                         extract($thongke);
                         echo '<tr>
-                                        <td></td>
+                                        <td>' . $malp . '</td>
                                         <td>' . $map . '</td>
-                                        <td>' . $tenkh . '</td>
+                                        <td>' . $id_user . '</td>
                                         <td>' . $sokhach . 'người</td>
                                         <td>' . number_format($tongtien) . 'vnd</td>
                                     </tr>';
