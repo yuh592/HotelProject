@@ -36,7 +36,7 @@
                         extract($phong);
                         $suap = "index.php?act=suap&id=" . $id_phong;
                         $xoap = "index.php?act=xoap&id=" . $id_phong;
-                        $img = "../upload/" . $img;
+                        $img = "../../../public/upload/" . $img;
                         if (is_file($img)) {
                             $img = "<img src='" . $img . "' height='80px'>";
                         } else {
@@ -56,6 +56,13 @@
                     }
                     ?>
                 </table>
+            </div>
+            <div class="row pagination">
+                <?php
+                $countAcc = count_phong();
+                $totalPages = ceil($countAcc / $accountsPerPage); 
+                display_phong_pagination($currentPage, $totalPages);
+                ?>
             </div>
             <div class="row mb10" style="display:flex;">
                 <input type="button" id="btn1" value="Chọn tất cả">

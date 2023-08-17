@@ -78,7 +78,7 @@ if (isset($_GET['act'])) {
                 $mota = $_POST['mota'];
                 $idlp = $_POST['idlp'];
                 $img = $_FILES['img']['name'];
-                $target_dir = "../upload/";
+                $target_dir = "../../../public/upload/";
                 $target_file = $target_dir . basename($_FILES["img"]["name"]);
                 if (move_uploaded_file($_FILES["img"]["tmp_name"], $target_file)) {
                     // echo "The file ". htmlspecialchars( basename( $_FILES["fileToUpload"]["name"])). " has been uploaded.";
@@ -105,17 +105,24 @@ if (isset($_GET['act'])) {
             include "../../views/admin/phong/add.php";
             break;
         case 'listp':
-            if (isset($_POST['gui']) && ($_POST['gui'])) {
-                $kyw = $_POST['kyw'];
-                $idlp = $_POST['idlp'];
-            } else {
-                $kyw = '';
-                $idlp = 0;
-            }
-            $listlp = loadall_loaiphong();
-            $listp = loadall_phong($kyw, $idlp);
-            include "../../views/admin/phong/list.php";
-            break;
+                $accountsPerPage = 5;
+                $currentPage = isset($_GET['page']) ? intval($_GET['page']) : 1;
+            
+                if (isset($_POST['gui']) && ($_POST['gui'])) {
+                    $kyw = $_POST['kyw'];
+                    $idlp = $_POST['idlp'];
+                    $listp = loadall_phong($kyw, $idlp);
+                } else {
+                    $kyw = '';
+                    $idlp = 0;
+                    $paginationData = setup__phong_pagination($accountsPerPage);
+                    extract($paginationData);
+                }
+            
+                $listlp = loadall_loaiphong();
+            
+                include "../../views/admin/phong/list.php";
+                break;
         case 'xoap':
             if (isset($_GET['id']) && ($_GET['id'] > 0)) {
                 delete_phong($_GET['id']);
@@ -131,6 +138,9 @@ if (isset($_GET['act'])) {
             include "../../views/admin/phong/update.php";
             break;
         case 'updatep':
+            $accountsPerPage = 5;
+            $currentPage = isset($_GET['page']) ? intval($_GET['page']) : 1;
+
             if (isset($_POST['capnhat']) && ($_POST['capnhat'])) {
                 $id = $_POST['id'];
                 $tenphong = $_POST['tenphong'];
@@ -140,7 +150,7 @@ if (isset($_GET['act'])) {
                 $mota = $_POST['mota'];
                 $idlp = $_POST['idlp'];
                 $img = $_FILES['img']['name'];
-                $target_dir = "../upload/";
+                $target_dir = "../../../public/upload/";
                 $target_file = $target_dir . basename($_FILES["img"]["name"]);
                 if (move_uploaded_file($_FILES["img"]["tmp_name"], $target_file)) {
                     // echo "The file ". htmlspecialchars( basename( $_FILES["fileToUpload"]["name"])). " has been uploaded.";
@@ -151,6 +161,8 @@ if (isset($_GET['act'])) {
             update_phong($id, $tenphong, $gia, $giasale, $sokhach, $img, $mota, $idlp);
             $thongbao = "Cập nhật thành công!";
             $listlp = loadall_loaiphong();
+            $paginationData = setup__phong_pagination($accountsPerPage);
+            extract($paginationData);
             $listp = loadall_phong($kyw = "", $idlp = 0);
             include "../../views/admin/phong/list.php";
             break;

@@ -100,3 +100,59 @@
         }
         pdo_execute($sql);
     }
+
+    function count_phong() {
+        $sql = "SELECT COUNT(*) AS total FROM phong";
+        $countAcc = pdo_query_one($sql);
+        return $countAcc['total'];
+    }
+    
+    function load_phong_for_page($startFrom, $accountsPerPage) {
+        $sql = "SELECT * FROM phong";
+        $sql .= " LIMIT $startFrom, $accountsPerPage";
+        $listlp = pdo_query($sql);
+        return $listlp;
+        }
+    
+        //thay act = page khac
+    function display_phong_pagination($currentPage, $totalPages) {
+            $visiblePages = 5;
+        
+            $startPage = max(1, $currentPage - floor($visiblePages / 2));
+            $endPage = min($totalPages, $startPage + $visiblePages - 1);
+        
+            if ($startPage > 1) {
+                echo '<a href="index.php?act=listp&page=1">Trang đầu</a>';
+            }
+        
+            if ($startPage > 2) {
+                echo '<span>...</span>';
+            }
+        
+            for ($i = $startPage; $i <= $endPage; $i++) {
+                echo '<a href="index.php?act=listp&page=' . $i . '">' . $i . '</a>';
+            }
+        
+            if ($endPage < $totalPages - 1) {
+                echo '<span>...</span>';
+            }
+        
+            if ($endPage < $totalPages) {
+                echo '<a href="index.php?act=listp&page=' . $totalPages . '">Trang cuối</a>';
+            }
+    }
+
+    function setup__phong_pagination($accountsPerPage) {
+        $currentPage = isset($_GET['page']) ? intval($_GET['page']) : 1;
+        $startFrom = ($currentPage - 1) * $accountsPerPage;
+        $listp = load_phong_for_page($startFrom, $accountsPerPage);
+        $totalCount = count_phong();
+        $totalPages = ceil($totalCount / $accountsPerPage);
+        
+        return array(
+            'currentPage' => $currentPage,
+            'listp' => $listp,
+            'totalCount' => $totalCount,
+            'totalPages' => $totalPages
+        );
+    }

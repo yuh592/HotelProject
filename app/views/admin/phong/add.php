@@ -1,9 +1,6 @@
 <div class="row">
     <div class="row mb headeradmin" style="width:1050px;">
-        <h1 style="padding: 15px 0;">ADMIN </h1>
-    </div>
-    <div class="row mb10 formtittle" style="width:1050px;">
-        <h3>THÊM MỚI PHÒNG</h3>
+        <h1 style="padding: 15px 0;">THÊM MỚI PHÒNG</h1>
     </div>
     <div class="row formcontent" style="width:1650px;">
     <span class="thongbao" style="color: red;">
@@ -55,7 +52,7 @@
                 <div class="row mb10 content3">
                     <div class="row mb10">
                         <label for="">LOẠI PHÒNG</label><br>
-                        <select name="idlp" id="" style="border:1px solid #FFCACA;">
+                        <select name="idlp" id="" style="border:1px solid #2a2f8c;">
                             <?php
                             foreach ($listlp as $loaiphong) {
                                 extract($loaiphong);
@@ -72,7 +69,7 @@
             </div>
             <div class="row mb10">
                 <label for="">MÔ TẢ</label><br>
-                <textarea name="mota" id="" cols="131%" rows="10" style="border:1px solid #FFCACA;"></textarea>
+                <textarea name="mota" id="" cols="131%" rows="10" style="border:1px solid #2a2f8c;"></textarea>
             </div>
             <div class="row mb10">
                 <input type="submit" name="themmoi" value="THÊM MỚI">
