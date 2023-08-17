@@ -36,17 +36,31 @@ if (isset($_GET['act'])) {
             break;
         case 'listlp':
             $accountsPerPage = 5;
-            $paginationData = setup__loaiphong_pagination($accountsPerPage);
-            extract($paginationData);
+            $currentPage = isset($_GET['page']) ? intval($_GET['page']) : 1;
+
+            if (isset($_POST['gui']) && ($_POST['gui'])) {
+                $kyw = $_POST['kyw'];
+                $listlp = loadall_loaiphong($kyw);
+            } else {
+                $kyw = '';
+                $startFrom = ($currentPage - 1) * $accountsPerPage;
+                $listlp = load_loaiphong_for_page($startFrom, $accountsPerPage);
+            }
+
+            $totalCount = count_loaiphong();
+            $totalPages = ceil($totalCount / $accountsPerPage);
             include "../../views/admin/loaiphong/list.php";
             break;
         case 'xoalp':
+            $accountsPerPage = 5;
+            $currentPage = isset($_GET['page']) ? intval($_GET['page']) : 1;
             if (isset($_GET['id']) && ($_GET['id'] > 0)) {
                 delete_loaiphong($_GET['id']);
             }
-            $accountsPerPage = 5;
-            $paginationData = setup__loaiphong_pagination($accountsPerPage);
-            extract($paginationData);
+            $startFrom = ($currentPage - 1) * $accountsPerPage;
+            $listlp = load_loaiphong_for_page($startFrom, $accountsPerPage);
+            $totalCount = count_loaiphong();
+            $totalPages = ceil($totalCount / $accountsPerPage);
             include "../../views/admin/loaiphong/list.php";
             break;
         case 'sualp':
@@ -56,15 +70,19 @@ if (isset($_GET['act'])) {
             include "../../views/admin/loaiphong/update.php";
             break;
         case 'updatelp':
+            $accountsPerPage = 5;
+            $currentPage = isset($_GET['page']) ? intval($_GET['page']) : 1;
+
             if (isset($_POST['capnhat']) && ($_POST['capnhat'])) {
                 $tenloaiphong = $_POST['tenloaiphong'];
                 $id = $_POST['id'];
                 update_loaiphong($id, $tenloaiphong);
                 $thongbao = "Cập nhật thành công!";
             }
-            $accountsPerPage = 5;
-            $paginationData = setup__loaiphong_pagination($accountsPerPage);
-            extract($paginationData);
+            $startFrom = ($currentPage - 1) * $accountsPerPage;
+            $listlp = load_loaiphong_for_page($startFrom, $accountsPerPage);
+            $totalCount = count_loaiphong();
+            $totalPages = ceil($totalCount / $accountsPerPage);
             include "../../views/admin/loaiphong/list.php";
             break;
             // phong

@@ -24,7 +24,7 @@
                         echo '<tr>
                                         <td>' . $id_hotro . '</td>
                                         <td>' . $name_user . '</td>
-                                        <td>' . $tel . '</td>
+                                        <td>0' . $tel . '</td>
                                         <td>' . $ghichu . '</td>
                                         <td><a onclick="return DELETE()" href="' . $xoaht . '"><input type="button" value="Xóa"></a></td>
                                     </tr>';

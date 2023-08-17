@@ -287,7 +287,7 @@ Chúng tôi luôn cháo đón bạn tại Danang Marriott.
 
                                                                         <ul class="c-mouse-vertical-carousel__list js-carousel-list">
                                                                             <li class="c-mouse-vertical-carousel__list-item js-carousel-list-item" data-item-id="0">
-                                                                                <a href="deluxe-room.html">
+                                                                                <a href="../../controllers/user/index.php?act=ourrooms">
                                                                                     <p class="c-mouse-vertical-carousel__eyebrow">
                                                                                         từ 1.500.000/đêm
                                                                                     </p>
@@ -297,7 +297,7 @@ Chúng tôi luôn cháo đón bạn tại Danang Marriott.
                                                                                 </a>
                                                                             </li>
                                                                             <li class="c-mouse-vertical-carousel__list-item js-carousel-list-item" data-item-id="1">
-                                                                                <a href="deluxe-room.html">
+                                                                                <a href="../../controllers/user/index.php?act=ourrooms">
                                                                                     <p class="c-mouse-vertical-carousel__eyebrow">
                                                                                         từ 1.800.000/đêm
                                                                                     </p>
@@ -307,7 +307,7 @@ Chúng tôi luôn cháo đón bạn tại Danang Marriott.
                                                                                 </a>
                                                                             </li>
                                                                             <li class="c-mouse-vertical-carousel__list-item js-carousel-list-item" data-item-id="2">
-                                                                                <a href="deluxe-room.html">
+                                                                                <a href="../../controllers/user/index.php?act=ourrooms">
                                                                                     <p class="c-mouse-vertical-carousel__eyebrow">
                                                                                         từ 2.000.000/đêm
                                                                                     </p>
@@ -317,7 +317,7 @@ Chúng tôi luôn cháo đón bạn tại Danang Marriott.
                                                                                 </a>
                                                                             </li>
                                                                             <li class="c-mouse-vertical-carousel__list-item js-carousel-list-item" data-item-id="3">
-                                                                                <a href="deluxe-room.html">
+                                                                                <a href="../../controllers/user/index.php?act=ourrooms">
                                                                                     <p class="c-mouse-vertical-carousel__eyebrow">
                                                                                         từ 3.000.000/đêm
                                                                                     </p>
@@ -387,7 +387,7 @@ Chúng tôi luôn cháo đón bạn tại Danang Marriott.
                                                     <div class="elementor-element elementor-element-48c0d38 elementor-align-left elementor-mobile-align-center elementor-invisible elementor-widget elementor-widget-button" data-id="48c0d38" data-element_type="widget" data-settings='{"_animation":"fadeInUp","_animation_delay":400,"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}' data-widget_type="button.default">
                                                         <div class="elementor-widget-container">
                                                             <div class="elementor-button-wrapper">
-                                                                <a href="https://themes.themegoods.com/hoteller/sites/about-us" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+                                                                <a href="../../controllers/user/index.php?act=about" class="elementor-button-link elementor-button elementor-size-sm" role="button">
                                                                     <span class="elementor-button-content-wrapper">
                                                                         <span class="elementor-button-text">Xem thêm</span>
                                                                     </span>
@@ -556,7 +556,7 @@ Chúng tôi luôn cháo đón bạn tại Danang Marriott.
                                                                     <div class="square-container2">
                                                                         <div class="align-center"></div>
                                                                         <h2>Bao gồm ăn sáng khi đặt phòng Luxury</h2>
-                                                                        <a href="index.html" class="boxshadow button">Xem đề nghị</a>
+                                                                        <a href="../../controllers/user/index.php?act=booknow" class="boxshadow button">Đặt phòng</a>
                                                                     </div>
                                                                     <div class="flip-overlay"></div>
                                                                 </div>
@@ -582,7 +582,7 @@ Chúng tôi luôn cháo đón bạn tại Danang Marriott.
                                                                     <div class="square-container2">
                                                                         <div class="align-center"></div>
                                                                         <h2>Hưởng chiết khấu 10%, đặt trước tối thiểu 3 ngày</h2>
-                                                                        <a href="index.html" class="boxshadow button">View Offer</a>
+                                                                        <a href="../../controllers/user/index.php?act=booknow" class="boxshadow button">Đặt phòng</a>
                                                                     </div>
                                                                     <div class="flip-overlay"></div>
                                                                 </div>
@@ -608,7 +608,7 @@ Chúng tôi luôn cháo đón bạn tại Danang Marriott.
                                                                     <div class="square-container2">
                                                                         <div class="align-center"></div>
                                                                         <h2>Hưởng lợi từ chiết khấu 15%, đặt chỗ trước tối thiểu 15 ngày</h2>
-                                                                        <a href="index.html" class="boxshadow button">Xem đề nghị</a>
+                                                                        <a href="../../controllers/user/index.php?act=booknow" class="boxshadow button">Đặt phòng</a>
                                                                     </div>
                                                                     <div class="flip-overlay"></div>
                                                                 </div>
