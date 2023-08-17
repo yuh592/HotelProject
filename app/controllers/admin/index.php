@@ -333,7 +333,13 @@ if (isset($_GET['act'])) {
             include "../../views/admin/binhluan/list.php";
             break;
         case 'dsht':
-            $listhotro = loadall_hotro(0);
+            if (isset($_POST['gui']) && ($_POST['gui'])) {
+                $kyw = $_POST['kyw'];
+                $listhotro = loadall_hotro($kyw);
+            } else {
+                $kyw = '';
+                $listhotro = loadall_hotro();
+            }
             include "../../views/admin/hotro/list.php";
             break;
         case 'xoaht':

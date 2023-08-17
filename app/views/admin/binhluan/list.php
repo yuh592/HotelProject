@@ -26,7 +26,7 @@
                                         <td><?php echo   $noidung ?></td>
                                         <td><?php echo   $id_user ?></td>
                                         <td><?php echo   $ngaybinhluan ?></td>
-                                        <td>P<?php echo   $id_phong ?></td>
+                                        <td><?php echo   $id_phong ?></td>
                                         <td>
                                             <a onclick="return confirm('Bạn có thực sự muốn xóa không?');" href="<?php echo $xoabl ?>">
                                                 <input type="button" value="Xóa">
