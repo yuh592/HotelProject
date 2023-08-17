@@ -120,7 +120,7 @@
                                                                                 <img
                                                                                     width="600"
                                                                                     height="880"
-                                                                                    src="../../../public/upload/room1_portrait.jpg"
+                                                                                    src="../../../public/upload/uudai2.png"
                                                                                     class="attachment-full size-full"
                                                                                     alt=""
                                                                                     loading="lazy"
@@ -293,18 +293,18 @@ Với vị trí độc đáo hướng ra bãi biển, khách sạn chúng tôi t
                                                                             <div class="timeline_wrapper">
                                                                                 <div class="timeline_entry">
                                                                                     <div class="timeline_title">
-                                                                                        <div class="timeline_image"><img src="../../../public/upload/thanhlap.jpg" alt="" /></div>
+                                                                                        <div class="timeline_image"><img src="../../../public/upload/tl1.jpg" alt="" /></div>
                                                                                         <h3>2000</h3>
                                                                                     </div>
                                                                                     <div class="timeline_body">
                                                                                         <p>
-                                                                                            Đà Nẵng Mariott được thành lập cùng với 60 nhân sự
+                                                                                            Đà Nẵng Marriott được thành lập cùng với 60 nhân sự
                                                                                         </p>
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="timeline_entry">
                                                                                     <div class="timeline_title">
-                                                                                        <div class="timeline_image"><img src="../../../public/upload/bar.jpg" alt="" /></div>
+                                                                                        <div class="timeline_image"><img src="../../../public/upload/tl2.jpg" alt="" /></div>
                                                                                         <h3>2006</h3>
                                                                                     </div>
                                                                                     <div class="timeline_body">
@@ -313,18 +313,18 @@ Với vị trí độc đáo hướng ra bãi biển, khách sạn chúng tôi t
                                                                                 </div>
                                                                                 <div class="timeline_entry">
                                                                                     <div class="timeline_title">
-                                                                                        <div class="timeline_image"><img src="../../../public/upload/khachsan.jpg" alt="" /></div>
+                                                                                        <div class="timeline_image"><img src="../../../public/upload/nen.jpg" alt="" /></div>
                                                                                         <h3>2012</h3>
                                                                                     </div>
                                                                                     <div class="timeline_body">
                                                                                         <p>
-                                                                                            Trở thành một trong những khách sạn hàng đầu ở khu vực bãi biển Non Nước
+                                                                                            Được vinh danh là “Khu nghỉ dưỡng biển hàng đầu Việt Nam” bởi World Travel Award
                                                                                         </p>
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="timeline_entry">
                                                                                     <div class="timeline_title">
-                                                                                        <div class="timeline_image"><img src="../../../public/upload/tourist.jpg" alt="" /></div>
+                                                                                        <div class="timeline_image"><img src="../../../public/upload/nguoi.jpg" alt="" /></div>
                                                                                         <h3>2017</h3>
                                                                                     </div>
                                                                                     <div class="timeline_body">

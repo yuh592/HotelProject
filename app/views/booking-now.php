@@ -38,8 +38,8 @@
                                                                     >
                                                                         <div class="elementor-widget-container">
                                                                             <h1 class="elementor-heading-title elementor-size-default">
-                                                                                Your new Boutique Hotel in Prague.<br />
-                                                                                Plan the journey of your dreams
+                                                                                Sự thoải mái của bạn <br />
+                                                                                là niềm tự hào của chúng tôi
                                                                             </h1>
                                                                         </div>
                                                                     </div>

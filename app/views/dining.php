@@ -55,7 +55,7 @@
                                                                                                 </div>
                                                                                             </div>
                                                                                             <div class="image-container">
-                                                                                                <img src="../../../public/upload/bride-and-groom-having-meal-with-friends-at-PUDM5NY.jpg" alt="" class="image" />
+                                                                                                <img src="../../../public/upload/khach.jpg" alt="" class="image" />
                                                                                             </div>
                                                                                         </div>
                                                                                         <div class="slide">
@@ -437,13 +437,13 @@ Không gian của chúng tôi được thiết kế để kết nối bạn vớ
                                                                     >
                                                                         <div class="elementor-widget-container">
                                                                             <div class="tg_flip_box_wrapper square-flip">
-                                                                                <div class="square" data-image="../../../public/upload/St-Moritz-Guest-Room.jpg">
+                                                                                <div class="square" data-image="../../../public/upload/book2.jpg">
                                                                                     <div class="square-container">
                                                                                         <h2>Bao gồm bữa sáng miễn phí</h2>
                                                                                     </div>
                                                                                     <div class="flip-overlay"></div>
                                                                                 </div>
-                                                                                <div class="square2" data-image="../../../public/upload/1551336909_5c7785cd1a9e7-thumb.jpg">
+                                                                                <div class="square2" data-image="../../../public/upload/lh1.jpg">
                                                                                     <div class="square-container2">
                                                                                         <div class="align-center"></div>
                                                                                         <h2>Bữa sáng đi kèm khi đặt phòng luxury</h2>
@@ -474,13 +474,13 @@ Không gian của chúng tôi được thiết kế để kết nối bạn vớ
                                                                     >
                                                                         <div class="elementor-widget-container">
                                                                             <div class="tg_flip_box_wrapper square-flip">
-                                                                                <div class="square" data-image="../../../public/upload/St-Moritz-Guest-Room.jpg">
+                                                                                <div class="square" data-image="../../../public/upload/book1.jpg">
                                                                                     <div class="square-container">
                                                                                         <h2>Giảm 10% khi đặt trước</h2>
                                                                                     </div>
                                                                                     <div class="flip-overlay"></div>
                                                                                 </div>
-                                                                                <div class="square2" data-image="../../../public/upload/1551336909_5c7785cd1a9e7-thumb.jpg">
+                                                                                <div class="square2" data-image="../../../public/upload/3.jpg">
                                                                                     <div class="square-container2">
                                                                                         <div class="align-center"></div>
                                                                                         <h2>Ưu đãi giảm giá 10%, đối với khách đặt trước chỗ ít nhất 3 ngày </h2>
@@ -511,7 +511,7 @@ Không gian của chúng tôi được thiết kế để kết nối bạn vớ
                                                                     >
                                                                         <div class="elementor-widget-container">
                                                                             <div class="tg_flip_box_wrapper square-flip">
-                                                                                <div class="square" data-image="../../../public/upload/St-Moritz-Guest-Room.jpg">
+                                                                                <div class="square" data-image="../../../public/upload/book3.jpg">
                                                                                     <div class="square-container">
                                                                                         <h2>15% cho khách đặt trước phòng không hoàn lại.</h2>
                                                                                     </div>

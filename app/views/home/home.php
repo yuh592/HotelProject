@@ -60,7 +60,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="image-container">
-                                                                                <img src="../../../public/upload/Danang-Marriott-Resort-Spa-3.jpg" alt="" class="image" />
+                                                                                <img src="../../../public/upload/Danang.jpg" alt="" class="image" />
                                                                             </div>
                                                                         </div>
                                                                     </div>
