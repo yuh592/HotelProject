@@ -303,7 +303,14 @@ if (isset($_GET['act'])) {
             include "../../views/admin/hoadon/list.php";
             break;
         case 'listbl':
-            $listbl = loadall_binhluan();
+            if (isset($_POST['gui']) && ($_POST['gui'])) {
+                $kyw = $_POST['kyw'];
+                $listbl = loadall_binhluan($kyw);
+            } else {
+                $kyw = '';
+                $listbl = loadall_binhluan();
+            }
+            
             include "../../views/admin/binhluan/list.php";
             break;
         case 'xoabl':

@@ -4,6 +4,10 @@
     </div>
     <div class="row formcontent" style="width:1040px;">
         <form action="index.php?act=listbl" method="post">
+            <div class="tk" style="display:flex;">
+            <input type="text" name="kyw" placeholder="Tìm kiếm user bình luận" style="width:100%;">
+            <input type="submit" name="gui" value="Tìm Kiếm" style="margin-left:20px;">
+            </div><br><br>
             <div class="row mb10 formdshanghoa" style="width:104%">
                 <table>
                     <tr>

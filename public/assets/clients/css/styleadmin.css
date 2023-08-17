@@ -407,7 +407,7 @@ table tr th{
     background-color: #2a2f8c;
 }
 .formdshanghoa table th:nth-child(3){
-    width: 10%;
+    width: 5%;
     background-color: #2a2f8c;
 }
 .formdshanghoa table th:nth-child(4){
@@ -423,7 +423,7 @@ table tr th{
     background-color: #2a2f8c;
 }
 .formdshanghoa table th:nth-child(7){
-    width: 30%;
+    width: 10%;
     background-color: #2a2f8c;
 }
 .formdshanghoa table th:nth-child(8){

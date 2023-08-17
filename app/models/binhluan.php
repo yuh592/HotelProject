@@ -3,9 +3,14 @@
         $sql="insert into binhluan(noidung,id_user,ngaybinhluan,id_phong) values('$noidung',$iduser,'$ngaybinhluan',$idroom)";
         pdo_execute($sql);
     }
-    function loadall_binhluan(){
-        $query="SELECT * FROM binhluan order by id_comment desc";
-        $listbl=pdo_query($query);
+    function loadall_binhluan($kyw=""){
+        $sql="SELECT * FROM binhluan where 1";
+        if($kyw!=""){
+            $sql.=" and noidung like '%".$kyw."%'";
+        }
+        $sql.=" order by id_comment desc";
+        
+        $listbl=pdo_query($sql);
         return $listbl;
     }
     function load_binhluan($id){
