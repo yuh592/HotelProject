@@ -1,12 +1,13 @@
 <div class="row">
     <div class="row mb headeradmin" style="width:1050px;">
-        <h1 style="padding: 15px 0;">ADMIN </h1>
-    </div>
-    <div class="row formtittle" style="width:1050px;">
-        <h3>DANH SÁCH ĐẶT PHÒNG</h3>
+        <h1 style="padding: 15px 0;">DANH SÁCH ĐẶT PHÒNG</h1>
     </div>
     <div class="row formcontent">
         <form action="index.php?act=listdp" method="post">
+            <div class="tk" style="display:flex;">
+            <input type="text" name="kyw" placeholder="Tìm kiếm user đặt phòng" style="width:100%;">
+            <input type="submit" name="gui" value="Tìm Kiếm" style="margin-left:20px;">
+            </div><br><br>
             <div class="row mb10 formdshanghoa" style="width:1050px;">
                 <table>
                     <tr>
@@ -48,6 +49,13 @@
                     }
                     ?>
                 </table>
+            </div>
+            <div class="row pagination">
+                <?php
+                $countAcc = count_datphong();
+                $totalPages = ceil($countAcc / $accountsPerPage); 
+                display_datphong_pagination($currentPage, $totalPages);
+                ?>
             </div>
             <div class="row mb10" style="display:flex;">
                 <input type="button" id="btn1" value="Chọn tất cả">

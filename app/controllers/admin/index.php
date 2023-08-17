@@ -168,8 +168,20 @@ if (isset($_GET['act'])) {
             break;
 
         case 'listdp':
-            $listdp = loadall_datphong();
-            update_tinhtrang();
+            $accountsPerPage = 5;
+            $currentPage = isset($_GET['page']) ? intval($_GET['page']) : 1;
+
+            if (isset($_POST['gui']) && ($_POST['gui'])) {
+                $kyw = $_POST['kyw'];
+                $listdp = loadall_datphong($kyw);
+            } else {
+                $kyw = '';
+                $startFrom = ($currentPage - 1) * $accountsPerPage;
+                $listdp = load_datphong_for_page($startFrom, $accountsPerPage);
+            }
+
+            $totalCount = count_datphong();
+            $totalPages = ceil($totalCount / $accountsPerPage);
             include "../../views/admin/datphong/list.php";
             break;
 
@@ -193,6 +205,10 @@ if (isset($_GET['act'])) {
                 update_datphong($id, $maphong, $makhachhang, $sokhach, $ngayden, $ngaytra, $tongtien, $giaodich, $tinhtrang);
             }
             $listdp = loadall_datphong();
+            $currentPage = isset($_GET['page']) ? intval($_GET['page']) : 1;
+            $accountsPerPage = 5;
+            $paginationData = setup__datphong_pagination($accountsPerPage);
+            extract($paginationData);
             include "../../views/admin/datphong/list.php";
             break;
         case 'xoadp':
@@ -200,6 +216,10 @@ if (isset($_GET['act'])) {
                 delete_datphong($_GET['id']);
             }
             $listdp = loadall_datphong();
+            $currentPage = isset($_GET['page']) ? intval($_GET['page']) : 1;
+            $accountsPerPage = 5;
+            $paginationData = setup__datphong_pagination($accountsPerPage);
+            extract($paginationData);
             include "../../views/admin/datphong/list.php";
             break;
         case 'dskh':

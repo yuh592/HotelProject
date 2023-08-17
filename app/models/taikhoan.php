@@ -53,14 +53,26 @@
 
     //thay act = page khac
     function display_taikhoan_pagination($currentPage, $totalPages) {
-        echo '<a class="' . ($currentPage === 1 ? 'disabled' : '') . '" href="index.php?act=dskh&page=1">First</a>';
-        for ($i = 1; $i <= $totalPages; $i++) {
-            if ($i == $currentPage) {
-                echo '<a class="active" href="index.php?act=dskh&page=' . $i . '">' . $i . '</a>';
-            } else {
-                echo '<a href="index.php?act=dskh&page=' . $i . '">' . $i . '</a>';
-            }
-        }
-        echo '<a href="index.php?act=dskh&page=' . $totalPages . '">Last</a>';
+    $visiblePages = 5;
+    $startPage = max(1, $currentPage - floor($visiblePages / 2));
+    $endPage = min($totalPages, $startPage + $visiblePages - 1);
+
+    if ($startPage > 1) {
+        echo '<a href="index.php?act=' . $_GET['act'] . '&page=1">Trang đầu</a>';
+    }
+
+    if ($startPage > 2) {
+        echo '<span>...</span>';
+    }
+
+    for ($i = $startPage; $i <= $endPage; $i++) {
+        echo '<a class="' . ($i === $currentPage ? 'active' : '') . '" href="index.php?act=' . $_GET['act'] . '&page=' . $i . '">' . $i . '</a>';
+    }
+
+    if ($endPage < $totalPages - 1) {
+        echo '<span>...</span>';
+    }
+
+    echo '<a href="index.php?act=' . $_GET['act'] . '&page=' . $totalPages . '">Trang cuối</a>';
     }
 ?>
