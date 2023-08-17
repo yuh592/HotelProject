@@ -33,4 +33,41 @@
         $sql="update binhluan set noidung = '$noidung' where id_comment= $id";
         pdo_execute($sql);
     }
+    function count_binhluan() {
+        $sql = "SELECT COUNT(*) AS total FROM binhluan";
+        $countAcc = pdo_query_one($sql);
+        return $countAcc['total'];
+        }
+        
+        function load_binhluan_for_page($startFrom, $accountsPerPage) {
+        $sql = "SELECT * FROM binhluan";
+        $sql .= " LIMIT $startFrom, $accountsPerPage";
+        $listbl = pdo_query($sql);
+        return $listbl;
+        }
+    
+        //thay act = page khac
+        function display_binhluan_pagination($currentPage, $totalPages) {
+        $visiblePages = 5;
+        $startPage = max(1, $currentPage - floor($visiblePages / 2));
+        $endPage = min($totalPages, $startPage + $visiblePages - 1);
+    
+        if ($startPage > 1) {
+            echo '<a href="index.php?act=' . $_GET['act'] . '&page=1">Trang đầu</a>';
+        }
+    
+        if ($startPage > 2) {
+            echo '<span>...</span>';
+        }
+    
+        for ($i = $startPage; $i <= $endPage; $i++) {
+            echo '<a class="' . ($i === $currentPage ? 'active' : '') . '" href="index.php?act=' . $_GET['act'] . '&page=' . $i . '">' . $i . '</a>';
+        }
+    
+        if ($endPage < $totalPages - 1) {
+            echo '<span>...</span>';
+        }
+    
+        echo '<a href="index.php?act=' . $_GET['act'] . '&page=' . $totalPages . '">Trang cuối</a>';
+        }
 ?>

@@ -267,57 +267,69 @@ if (isset($_GET['act'])) {
             $listtaikhoan = loadall_taikhoan("", 0);
             include "../../views/admin/taikhoan/list.php";
             break;
-        case 'listhd':
-            if (isset($_POST['capnhat']) && ($_POST['capnhat'])) {
-                $giaodich = $_POST['giaodich'];
-            } else {
-                $giaodich = 0;
-            }
-            $listhd = loadall_hoadon($idhd = 0);
-            include "../../views/admin/hoadon/list.php";
-            break;
-        case 'xoahd':
-            if (isset($_GET['id']) && ($_GET['id'] > 0)) {
-                delete_hoadon($_GET['id']);
-            }
-            $listhd = loadall_hoadon($idhd = 0);
-            include "../../views/admin/hoadon/list.php";
-            break;
-        case 'suahd':
-            if (isset($_GET['id']) && ($_GET['id'] > 0)) {
-                $hd = loadone_hoadon($_GET['id']);
-            }
-            include "../../views/admin/hoadon/update.php";
-            break;
-        case 'updatehd':
-            if (isset($_POST['capnhat']) && ($_POST['capnhat'])) {
-                $id = $_POST['id'];
-                $id_order = $_POST['id_order'];
-                $id_phong = $_POST['id_phong'];
-                $id_user = $_POST['id_user'];
-                $tongtien = $_POST['tongtien'];
-                $role = $_POST['giaodich'];
-                update_hoadon($id, $id_order, $id_phong,$id_user, $tongtien , $role);
-            }
-            $listhd = loadall_hoadon($idhd = 0);
-            include "../../views/admin/hoadon/list.php";
-            break;
+        // case 'listhd':
+        //     if (isset($_POST['capnhat']) && ($_POST['capnhat'])) {
+        //         $giaodich = $_POST['giaodich'];
+        //     } else {
+        //         $giaodich = 0;
+        //     }
+        //     $listhd = loadall_hoadon($idhd = 0);
+        //     include "../../views/admin/hoadon/list.php";
+        //     break;
+        // case 'xoahd':
+        //     if (isset($_GET['id']) && ($_GET['id'] > 0)) {
+        //         delete_hoadon($_GET['id']);
+        //     }
+        //     $listhd = loadall_hoadon($idhd = 0);
+        //     include "../../views/admin/hoadon/list.php";
+        //     break;
+        // case 'suahd':
+        //     if (isset($_GET['id']) && ($_GET['id'] > 0)) {
+        //         $hd = loadone_hoadon($_GET['id']);
+        //     }
+        //     include "../../views/admin/hoadon/update.php";
+        //     break;
+        // case 'updatehd':
+        //     if (isset($_POST['capnhat']) && ($_POST['capnhat'])) {
+        //         $id = $_POST['id'];
+        //         $id_order = $_POST['id_order'];
+        //         $id_phong = $_POST['id_phong'];
+        //         $id_user = $_POST['id_user'];
+        //         $tongtien = $_POST['tongtien'];
+        //         $role = $_POST['giaodich'];
+        //         update_hoadon($id, $id_order, $id_phong,$id_user, $tongtien , $role);
+        //     }
+        //     $listhd = loadall_hoadon($idhd = 0);
+        //     include "../../views/admin/hoadon/list.php";
+        //     break;
         case 'listbl':
+            $accountsPerPage = 5;
+            $currentPage = isset($_GET['page']) ? intval($_GET['page']) : 1;
+
             if (isset($_POST['gui']) && ($_POST['gui'])) {
                 $kyw = $_POST['kyw'];
                 $listbl = loadall_binhluan($kyw);
             } else {
                 $kyw = '';
-                $listbl = loadall_binhluan();
+                $startFrom = ($currentPage - 1) * $accountsPerPage;
+                $listbl = load_binhluan_for_page($startFrom, $accountsPerPage);
             }
+
+            $totalCount = count_binhluan();
+            $totalPages = ceil($totalCount / $accountsPerPage);
             
             include "../../views/admin/binhluan/list.php";
             break;
         case 'xoabl':
+            $accountsPerPage = 5;
+            $currentPage = isset($_GET['page']) ? intval($_GET['page']) : 1;
             if (isset($_GET['id']) && ($_GET['id'] > 0)) {
                 delete_binhluan($_GET['id']);
             }
-            $listbl = loadall_binhluan();
+            $startFrom = ($currentPage - 1) * $accountsPerPage;
+            $listbl = load_binhluan_for_page($startFrom, $accountsPerPage);
+            $totalCount = count_binhluan();
+            $totalPages = ceil($totalCount / $accountsPerPage);
             include "../../views/admin/binhluan/list.php";
             break;
         case 'dsht':

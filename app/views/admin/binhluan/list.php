@@ -5,7 +5,7 @@
     <div class="row formcontent" style="width:1040px;">
         <form action="index.php?act=listbl" method="post">
             <div class="tk" style="display:flex;">
-            <input type="text" name="kyw" placeholder="Tìm kiếm user bình luận" style="width:100%;">
+            <input type="text" name="kyw" placeholder="Tìm kiếm nội dung bình luận" style="width:100%;">
             <input type="submit" name="gui" value="Tìm Kiếm" style="margin-left:20px;">
             </div><br><br>
             <div class="row mb10 formdshanghoa" style="width:104%">
@@ -35,6 +35,13 @@
                                     </tr>
                    <?php } ?>      
                 </table>
+            </div>
+            <div class="row pagination">
+            <?php
+            $countAcc = count_binhluan();
+            $totalPages = ceil($countAcc / $accountsPerPage); 
+            display_binhluan_pagination($currentPage, $totalPages); // Call the pagination function here
+            ?>
             </div>
         </form>
       
